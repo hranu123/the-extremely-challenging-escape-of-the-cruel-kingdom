@@ -5,8 +5,12 @@
   "resources": [
     {"id":{"name":"spr_main_character_left","path":"sprites/spr_main_character_left/spr_main_character_left.yy",},"order":3,},
     {"id":{"name":"ts_interior_of_castle","path":"tilesets/ts_interior_of_castle/ts_interior_of_castle.yy",},"order":1,},
+    {"id":{"name":"spr_blocker","path":"sprites/spr_blocker/spr_blocker.yy",},"order":11,},
+    {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"order":2,},
     {"id":{"name":"spr_brother_left","path":"sprites/spr_brother_left/spr_brother_left.yy",},"order":8,},
+    {"id":{"name":"obj_gamemanager","path":"objects/obj_gamemanager/obj_gamemanager.yy",},"order":4,},
     {"id":{"name":"obj_brother","path":"objects/obj_brother/obj_brother.yy",},"order":1,},
+    {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},"order":10,},
     {"id":{"name":"spr_main_character_down","path":"sprites/spr_main_character_down/spr_main_character_down.yy",},"order":2,},
     {"id":{"name":"spr_main_character_up","path":"sprites/spr_main_character_up/spr_main_character_up.yy",},"order":5,},
     {"id":{"name":"spr_brother_down","path":"sprites/spr_brother_down/spr_brother_down.yy",},"order":6,},
@@ -16,7 +20,9 @@
     {"id":{"name":"spr_brother_right","path":"sprites/spr_brother_right/spr_brother_right.yy",},"order":9,},
     {"id":{"name":"ts_exterior_of_kingdom","path":"tilesets/ts_exterior_of_kingdom/ts_exterior_of_kingdom.yy",},"order":0,},
     {"id":{"name":"spr_brother_up","path":"sprites/spr_brother_up/spr_brother_up.yy",},"order":7,},
+    {"id":{"name":"spr_coinicon","path":"sprites/spr_coinicon/spr_coinicon.yy",},"order":12,},
     {"id":{"name":"spr_main_character_right","path":"sprites/spr_main_character_right/spr_main_character_right.yy",},"order":4,},
+    {"id":{"name":"obj_blocker","path":"objects/obj_blocker/obj_blocker.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -52,7 +58,9 @@
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"coin-rotate-set-animation-cartoon-600nw-795975442.webp","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.0.3.85",
   },
