@@ -9,5 +9,5 @@ x += var_main_speed;
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 2C986F4D
-/// @DnDArgument : "speed" "3"
-image_speed = 3;
+/// @DnDArgument : "speed" "var_main_animation_speed"
+image_speed = var_main_animation_speed;
