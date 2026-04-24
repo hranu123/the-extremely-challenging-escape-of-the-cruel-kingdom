@@ -6,7 +6,7 @@
     "name": "spr_blocker",
     "path": "sprites/spr_blocker/spr_blocker.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

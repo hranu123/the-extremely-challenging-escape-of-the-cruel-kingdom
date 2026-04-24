@@ -9,12 +9,12 @@ draw_set_alpha(l3E4DE551_0 / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
 /// @DnDVersion : 1
 /// @DnDHash : 79B01E1B
-/// @DnDArgument : "x1" "7"
+/// @DnDArgument : "x1" "10"
 /// @DnDArgument : "y1" "5"
-/// @DnDArgument : "x2" "175"
+/// @DnDArgument : "x2" "210"
 /// @DnDArgument : "y2" "40"
 /// @DnDArgument : "fill" "1"
-draw_rectangle(7, 5, 175, 40, 0);
+draw_rectangle(10, 5, 210, 40, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -29,12 +29,11 @@ draw_set_colour($FFFF00AB & $ffffff);draw_set_alpha(1);
 /// @DnDArgument : "x" "10"
 /// @DnDArgument : "y" "12"
 /// @DnDArgument : "sprite" "spr_coinicon"
-/// @DnDArgument : "stackorder" "1"
 /// @DnDSaveInfo : "sprite" "spr_coinicon"
-var l46C4A14A_0 = sprite_get_height(spr_coinicon);
+var l46C4A14A_0 = sprite_get_width(spr_coinicon);
 var l46C4A14A_1 = 0;
 for(var l46C4A14A_2 = 1; l46C4A14A_2 > 0; --l46C4A14A_2) {
-	draw_sprite(spr_coinicon, 0, 10, 12 + l46C4A14A_1);
+	draw_sprite(spr_coinicon, 0, 10 + l46C4A14A_1, 12);
 	l46C4A14A_1 += l46C4A14A_0;
 }
 
