@@ -49,7 +49,7 @@ draw_text(45, 13, string("Coins:") + "");
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1
 /// @DnDHash : 25C5C066
-/// @DnDArgument : "x" "57"
+/// @DnDArgument : "x" "90"
 /// @DnDArgument : "y" "12"
 /// @DnDArgument : "sprite" "spr_coinicon"
 /// @DnDArgument : "number" "global.var_coincount"
@@ -57,6 +57,6 @@ draw_text(45, 13, string("Coins:") + "");
 var l25C5C066_0 = sprite_get_width(spr_coinicon);
 var l25C5C066_1 = 0;
 for(var l25C5C066_2 = global.var_coincount; l25C5C066_2 > 0; --l25C5C066_2) {
-	draw_sprite(spr_coinicon, 0, 57 + l25C5C066_1, 12);
+	draw_sprite(spr_coinicon, 0, 90 + l25C5C066_1, 12);
 	l25C5C066_1 += l25C5C066_0;
 }

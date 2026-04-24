@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gamemanager",
+  "name": "obj_coin_count",
   "spriteId": null,
   "solid": false,
   "visible": true,

@@ -8,7 +8,7 @@
     {"id":{"name":"spr_blocker","path":"sprites/spr_blocker/spr_blocker.yy",},"order":11,},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"order":2,},
     {"id":{"name":"spr_brother_left","path":"sprites/spr_brother_left/spr_brother_left.yy",},"order":8,},
-    {"id":{"name":"obj_gamemanager","path":"objects/obj_gamemanager/obj_gamemanager.yy",},"order":4,},
+    {"id":{"name":"obj_coin_count","path":"objects/obj_coin_count/obj_coin_count.yy",},"order":4,},
     {"id":{"name":"obj_brother","path":"objects/obj_brother/obj_brother.yy",},"order":1,},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},"order":10,},
     {"id":{"name":"spr_main_character_down","path":"sprites/spr_main_character_down/spr_main_character_down.yy",},"order":2,},
