@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7C8A737F
-/// @DnDArgument : "expr" "6.5"
+/// @DnDArgument : "expr" "2"
 /// @DnDArgument : "var" "var_coin_speed"
-var_coin_speed = 6.5;
+var_coin_speed = 2;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Random
 /// @DnDVersion : 1.1
