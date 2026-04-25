@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_blocker",
+  "name": "obj_character_blocker",
   "spriteId": {
-    "name": "spr_blocker",
-    "path": "sprites/spr_blocker/spr_blocker.yy",
+    "name": "spr_character_blocker",
+    "path": "sprites/spr_character_blocker/spr_character_blocker.yy",
   },
   "solid": true,
   "visible": true,

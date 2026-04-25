@@ -9,12 +9,12 @@ draw_set_alpha(l3E4DE551_0 / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
 /// @DnDVersion : 1
 /// @DnDHash : 79B01E1B
-/// @DnDArgument : "x1" "10"
-/// @DnDArgument : "y1" "5"
-/// @DnDArgument : "x2" "210"
-/// @DnDArgument : "y2" "40"
+/// @DnDArgument : "x1" "12"
+/// @DnDArgument : "y1" "10"
+/// @DnDArgument : "x2" "350"
+/// @DnDArgument : "y2" "80"
 /// @DnDArgument : "fill" "1"
-draw_rectangle(10, 5, 210, 40, 0);
+draw_rectangle(12, 10, 350, 80, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
