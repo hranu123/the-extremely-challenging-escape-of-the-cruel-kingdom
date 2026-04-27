@@ -39,3 +39,17 @@ var_sprint_animation = 5.5;
 /// @DnDArgument : "expr" "var_walk_animation"
 /// @DnDArgument : "var" "var_main_animation_speed"
 var_main_animation_speed = var_walk_animation;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6A499C2A
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "global.var_has_keycard "
+global.var_has_keycard  = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 741B777A
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "global.var_alarm_active"
+global.var_alarm_active = false;

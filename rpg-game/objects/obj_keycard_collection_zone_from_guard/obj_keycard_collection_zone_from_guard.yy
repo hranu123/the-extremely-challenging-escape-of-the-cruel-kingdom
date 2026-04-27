@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_keypad",
+  "name": "obj_keycard_collection_zone_from_guard",
   "spriteId": {
-    "name": "spr_keypad",
-    "path": "sprites/spr_keypad/spr_keypad.yy",
+    "name": "spr_keycard_collection_zone_from_guard",
+    "path": "sprites/spr_keycard_collection_zone_from_guard/spr_keycard_collection_zone_from_guard.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -7,7 +7,7 @@
     "path": "sprites/spr_character_blocker/spr_character_blocker.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
