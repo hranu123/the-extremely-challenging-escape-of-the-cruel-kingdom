@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_knight",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_knight_down",
+    "path": "sprites/spr_knight_down/spr_knight_down.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
