@@ -34,10 +34,12 @@
     {"id":{"name":"spr_brother_up","path":"sprites/spr_brother_up/spr_brother_up.yy",},"order":7,},
     {"id":{"name":"spr_keypad","path":"sprites/spr_keypad/spr_keypad.yy",},"order":15,},
     {"id":{"name":"spr_coinicon","path":"sprites/spr_coinicon/spr_coinicon.yy",},"order":12,},
+    {"id":{"name":"obj_intro_text","path":"objects/obj_intro_text/obj_intro_text.yy",},"order":12,},
     {"id":{"name":"spr_open_jail","path":"sprites/spr_open_jail/spr_open_jail.yy",},"order":16,},
     {"id":{"name":"spr_main_character_right","path":"sprites/spr_main_character_right/spr_main_character_right.yy",},"order":4,},
     {"id":{"name":"obj_character_blocker","path":"objects/obj_character_blocker/obj_character_blocker.yy",},"order":3,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -57,6 +59,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
