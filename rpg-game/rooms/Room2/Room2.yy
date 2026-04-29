@@ -19,7 +19,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Blockers","instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DA3A2A","properties":[],"isDnd":false,"objectId":{"name":"obj_coin_count","path":"objects/obj_coin_count/obj_coin_count.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6CB5F84D","properties":[],"isDnd":false,"objectId":{"name":"obj_intro_text","path":"objects/obj_intro_text/obj_intro_text.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":416.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_structures","tilesetId":{"name":"ts_exterior_of_kingdom","path":"tilesets/ts_exterior_of_kingdom/ts_exterior_of_kingdom.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":125,"SerialiseHeight":94,"TileCompressedData":[
 -6761,-2147483648,-8,0,-117,-2147483648,-8,0,-112,-2147483648,5,367,368,369,370,371,-8,0,-106,-2147483648,-6,120,6,398,367,368,369,370,371,-7,0,-106,-2147483648,-7,151,6,398,367,368,369,370,371,-6,0,-106,-2147483648,-5,151,-3,120,6,398,367,368,369,370,371,-5,0,-106,-2147483648,-5,120,-4,151,5,367,368,369,370,371,-5,0,-106,-2147483648,-5,151,-4,120,6,398,367,368,369,370,371,-4,0,-106,-2147483648,-5,120,-5,151,5,398,399,400,401,402,-4,0,-106,-2147483648,-5,151,-5,120,5,367,368,369,370,371,-4,0,-106,-2147483648,-5,120,-5,151,5,367,368,
@@ -128,7 +127,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7DA3A2A","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_6CB5F84D","path":"rooms/Room2/Room2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

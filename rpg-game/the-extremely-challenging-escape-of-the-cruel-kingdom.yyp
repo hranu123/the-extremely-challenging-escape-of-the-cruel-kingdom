@@ -22,6 +22,7 @@
     {"id":{"name":"spr_knight_keycard_down","path":"sprites/spr_knight_keycard_down/spr_knight_keycard_down.yy",},"order":19,},
     {"id":{"name":"spr_coin_blocker","path":"sprites/spr_coin_blocker/spr_coin_blocker.yy",},"order":13,},
     {"id":{"name":"spr_brother_down","path":"sprites/spr_brother_down/spr_brother_down.yy",},"order":6,},
+    {"id":{"name":"fnt_intro_text","path":"fonts/fnt_intro_text/fnt_intro_text.yy",},"order":0,},
     {"id":{"name":"spr_tileset_for_exterior_of_kingdom","path":"sprites/spr_tileset_for_exterior_of_kingdom/spr_tileset_for_exterior_of_kingdom.yy",},"order":0,},
     {"id":{"name":"spr_tileset_for_interior_of_castle","path":"sprites/spr_tileset_for_interior_of_castle/spr_tileset_for_interior_of_castle.yy",},"order":1,},
     {"id":{"name":"obj_keycard","path":"objects/obj_keycard/obj_keycard.yy",},"order":6,},
@@ -59,8 +60,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
@@ -68,6 +69,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":12,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
