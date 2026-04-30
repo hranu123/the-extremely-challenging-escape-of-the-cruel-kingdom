@@ -19,7 +19,6 @@
     {"id":{"name":"spr_keycard","path":"sprites/spr_keycard/spr_keycard.yy",},"order":14,},
     {"id":{"name":"spr_main_character_down","path":"sprites/spr_main_character_down/spr_main_character_down.yy",},"order":2,},
     {"id":{"name":"spr_main_character_up","path":"sprites/spr_main_character_up/spr_main_character_up.yy",},"order":5,},
-    {"id":{"name":"spr_knight_keycard_down","path":"sprites/spr_knight_keycard_down/spr_knight_keycard_down.yy",},"order":19,},
     {"id":{"name":"spr_coin_blocker","path":"sprites/spr_coin_blocker/spr_coin_blocker.yy",},"order":13,},
     {"id":{"name":"spr_brother_down","path":"sprites/spr_brother_down/spr_brother_down.yy",},"order":6,},
     {"id":{"name":"fnt_coin_count","path":"fonts/fnt_coin_count/fnt_coin_count.yy",},"order":1,},
@@ -28,7 +27,6 @@
     {"id":{"name":"spr_tileset_for_interior_of_castle","path":"sprites/spr_tileset_for_interior_of_castle/spr_tileset_for_interior_of_castle.yy",},"order":1,},
     {"id":{"name":"obj_keycard","path":"objects/obj_keycard/obj_keycard.yy",},"order":6,},
     {"id":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},"order":0,},
-    {"id":{"name":"obj_knight_keycard","path":"objects/obj_knight_keycard/obj_knight_keycard.yy",},"order":11,},
     {"id":{"name":"spr_brother_right","path":"sprites/spr_brother_right/spr_brother_right.yy",},"order":9,},
     {"id":{"name":"ts_exterior_of_kingdom","path":"tilesets/ts_exterior_of_kingdom/ts_exterior_of_kingdom.yy",},"order":0,},
     {"id":{"name":"obj_open_jail","path":"objects/obj_open_jail/obj_open_jail.yy",},"order":8,},
@@ -61,8 +59,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":12,},
