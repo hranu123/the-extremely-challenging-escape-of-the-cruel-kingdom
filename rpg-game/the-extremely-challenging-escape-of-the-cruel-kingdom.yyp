@@ -22,6 +22,7 @@
     {"id":{"name":"spr_knight_keycard_down","path":"sprites/spr_knight_keycard_down/spr_knight_keycard_down.yy",},"order":19,},
     {"id":{"name":"spr_coin_blocker","path":"sprites/spr_coin_blocker/spr_coin_blocker.yy",},"order":13,},
     {"id":{"name":"spr_brother_down","path":"sprites/spr_brother_down/spr_brother_down.yy",},"order":6,},
+    {"id":{"name":"fnt_coin_count","path":"fonts/fnt_coin_count/fnt_coin_count.yy",},"order":1,},
     {"id":{"name":"fnt_intro_text","path":"fonts/fnt_intro_text/fnt_intro_text.yy",},"order":0,},
     {"id":{"name":"spr_tileset_for_exterior_of_kingdom","path":"sprites/spr_tileset_for_exterior_of_kingdom/spr_tileset_for_exterior_of_kingdom.yy",},"order":0,},
     {"id":{"name":"spr_tileset_for_interior_of_castle","path":"sprites/spr_tileset_for_interior_of_castle/spr_tileset_for_interior_of_castle.yy",},"order":1,},

@@ -1,9 +1,15 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 53B957BC
+/// @DnDArgument : "font" "fnt_coin_count"
+/// @DnDSaveInfo : "font" "fnt_coin_count"
+draw_set_font(fnt_coin_count);
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 3E4DE551
-/// @DnDArgument : "color" "$ADFF0F1A"
-draw_set_colour($ADFF0F1A & $ffffff);
-var l3E4DE551_0=($ADFF0F1A >> 24);
+draw_set_colour($FFFFFFFF & $ffffff);
+var l3E4DE551_0=($FFFFFFFF >> 24);
 draw_set_alpha(l3E4DE551_0 / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
@@ -19,21 +25,21 @@ draw_rectangle(12, 10, 350, 80, 0);
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 0E86D75B
-/// @DnDArgument : "color" "$FFFF00AB"
+/// @DnDArgument : "color" "$FF06A2E5"
 /// @DnDArgument : "alpha" "false"
-draw_set_colour($FFFF00AB & $ffffff);draw_set_alpha(1);
+draw_set_colour($FF06A2E5 & $ffffff);draw_set_alpha(1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1
 /// @DnDHash : 46C4A14A
-/// @DnDArgument : "x" "10"
-/// @DnDArgument : "y" "12"
+/// @DnDArgument : "x" "12"
+/// @DnDArgument : "y" "30"
 /// @DnDArgument : "sprite" "spr_coinicon"
 /// @DnDSaveInfo : "sprite" "spr_coinicon"
 var l46C4A14A_0 = sprite_get_width(spr_coinicon);
 var l46C4A14A_1 = 0;
 for(var l46C4A14A_2 = 1; l46C4A14A_2 > 0; --l46C4A14A_2) {
-	draw_sprite(spr_coinicon, 0, 10 + l46C4A14A_1, 12);
+	draw_sprite(spr_coinicon, 0, 12 + l46C4A14A_1, 30);
 	l46C4A14A_1 += l46C4A14A_0;
 }
 
@@ -41,9 +47,9 @@ for(var l46C4A14A_2 = 1; l46C4A14A_2 > 0; --l46C4A14A_2) {
 /// @DnDVersion : 1
 /// @DnDHash : 756AEED5
 /// @DnDArgument : "x" "45"
-/// @DnDArgument : "y" "13"
+/// @DnDArgument : "y" "20"
 /// @DnDArgument : "caption" ""Coins:""
-draw_text(45, 13, string("Coins:") + "");
+draw_text(45, 20, string("Coins:") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1

@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 11DF52E7
+/// @DnDArgument : "font" "fnt_coin_count"
+/// @DnDSaveInfo : "font" "fnt_coin_count"
+draw_set_font(fnt_coin_count);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0FF48DDA
@@ -75,6 +82,14 @@ if(global.var_has_keycard == true)
 /// @DnDHash : 30BF4DF2
 else
 {
+	/// @DnDAction : YoYo Games.Drawing.Set_Font
+	/// @DnDVersion : 1
+	/// @DnDHash : 1991C6FB
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "font" "fnt_coin_count"
+	/// @DnDSaveInfo : "font" "fnt_coin_count"
+	draw_set_font(fnt_coin_count);
+
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
 	/// @DnDHash : 5C564870
