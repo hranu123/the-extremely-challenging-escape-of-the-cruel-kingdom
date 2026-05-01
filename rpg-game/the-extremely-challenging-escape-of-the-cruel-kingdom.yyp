@@ -32,7 +32,7 @@
     {"id":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},"order":0,},
     {"id":{"name":"spr_brother_right","path":"sprites/spr_brother_right/spr_brother_right.yy",},"order":9,},
     {"id":{"name":"ts_exterior_of_kingdom","path":"tilesets/ts_exterior_of_kingdom/ts_exterior_of_kingdom.yy",},"order":0,},
-    {"id":{"name":"Controls","path":"rooms/Controls/Controls.yy",},"order":2,},
+    {"id":{"name":"Controls_lobby","path":"rooms/Controls_lobby/Controls_lobby.yy",},"order":2,},
     {"id":{"name":"obj_open_jail","path":"objects/obj_open_jail/obj_open_jail.yy",},"order":8,},
     {"id":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},"order":10,},
     {"id":{"name":"spr_brother_up","path":"sprites/spr_brother_up/spr_brother_up.yy",},"order":7,},
@@ -65,7 +65,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Intro_text","path":"rooms/Intro_text/Intro_text.yy",},},
-    {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
+    {"roomId":{"name":"Controls_lobby","path":"rooms/Controls_lobby/Controls_lobby.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Exit_you_win","path":"rooms/Exit_you_win/Exit_you_win.yy",},},
     {"roomId":{"name":"You_lose","path":"rooms/You_lose/You_lose.yy",},},

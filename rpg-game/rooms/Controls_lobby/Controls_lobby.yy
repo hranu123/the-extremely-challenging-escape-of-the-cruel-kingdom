@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Controls",
+  "name": "Controls_lobby",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
