@@ -2,10 +2,6 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "ts_interior_of_castle",
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "spriteId": {
     "name": "spr_tileset_for_interior_of_castle",
     "path": "sprites/spr_tileset_for_interior_of_castle/spr_tileset_for_interior_of_castle.yy",
@@ -16,9 +12,13 @@
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
-  "out_tilehborder": 2,
-  "out_tilevborder": 2,
   "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "out_tilehborder": 0,
+  "out_tilevborder": 0,
   "out_columns": 31,
   "tile_count": 950,
   "autoTileSets": [],
