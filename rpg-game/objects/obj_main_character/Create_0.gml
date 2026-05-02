@@ -49,6 +49,20 @@ global.var_has_keycard  = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 4FFB74B0
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "var_dead"
+var_dead = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 77C6ECCD
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "var_can_take_damage"
+var_can_take_damage = true;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 741B777A
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "global.var_alarm_active"
