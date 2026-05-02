@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 11DF52E7
-/// @DnDArgument : "font" "fnt_coin_count"
-/// @DnDSaveInfo : "font" "fnt_coin_count"
-draw_set_font(fnt_coin_count);
+/// @DnDArgument : "font" "fnt_gui"
+/// @DnDSaveInfo : "font" "fnt_gui"
+draw_set_font(fnt_gui);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -25,25 +25,25 @@ if(global.var_has_keycard == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 277939BC
 	/// @DnDParent : 0FF48DDA
-	/// @DnDArgument : "x1" "2000"
+	/// @DnDArgument : "x1" "1990"
 	/// @DnDArgument : "y1" "5"
-	/// @DnDArgument : "x2" "1650"
-	/// @DnDArgument : "y2" "100"
+	/// @DnDArgument : "x2" "1500"
+	/// @DnDArgument : "y2" "200"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(2000, 5, 1650, 100, 0);
+	draw_rectangle(1990, 5, 1500, 200, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 	/// @DnDVersion : 1
 	/// @DnDHash : 57DE37E5
 	/// @DnDParent : 0FF48DDA
-	/// @DnDArgument : "x" "1910"
-	/// @DnDArgument : "y" "13"
+	/// @DnDArgument : "x" "1515"
+	/// @DnDArgument : "y" "50"
 	/// @DnDArgument : "sprite" "spr_keycard_icon"
 	/// @DnDSaveInfo : "sprite" "spr_keycard_icon"
 	var l57DE37E5_0 = sprite_get_width(spr_keycard_icon);
 	var l57DE37E5_1 = 0;
 	for(var l57DE37E5_2 = 1; l57DE37E5_2 > 0; --l57DE37E5_2) {
-		draw_sprite(spr_keycard_icon, 0, 1910 + l57DE37E5_1, 13);
+		draw_sprite(spr_keycard_icon, 0, 1515 + l57DE37E5_1, 50);
 		l57DE37E5_1 += l57DE37E5_0;
 	}
 
@@ -58,10 +58,10 @@ if(global.var_has_keycard == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3740EEC8
 	/// @DnDParent : 0FF48DDA
-	/// @DnDArgument : "x" "1665"
+	/// @DnDArgument : "x" "1515"
 	/// @DnDArgument : "y" "13"
 	/// @DnDArgument : "caption" ""Keycard: Yes ""
-	draw_text(1665, 13, string("Keycard: Yes ") + "");
+	draw_text(1515, 13, string("Keycard: Yes ") + "");
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -73,9 +73,9 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 1991C6FB
 	/// @DnDParent : 30BF4DF2
-	/// @DnDArgument : "font" "fnt_coin_count"
-	/// @DnDSaveInfo : "font" "fnt_coin_count"
-	draw_set_font(fnt_coin_count);
+	/// @DnDArgument : "font" "fnt_gui"
+	/// @DnDSaveInfo : "font" "fnt_gui"
+	draw_set_font(fnt_gui);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -90,12 +90,12 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 35EC81C3
 	/// @DnDParent : 30BF4DF2
-	/// @DnDArgument : "x1" "2000"
+	/// @DnDArgument : "x1" "1990"
 	/// @DnDArgument : "y1" "5"
-	/// @DnDArgument : "x2" "1650"
-	/// @DnDArgument : "y2" "100"
+	/// @DnDArgument : "x2" "1500"
+	/// @DnDArgument : "y2" "200"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle(2000, 5, 1650, 100, 0);
+	draw_rectangle(1990, 5, 1500, 200, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -108,8 +108,8 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 6AD67A6E
 	/// @DnDParent : 30BF4DF2
-	/// @DnDArgument : "x" "1665"
+	/// @DnDArgument : "x" "1515"
 	/// @DnDArgument : "y" "13"
 	/// @DnDArgument : "caption" ""Keycard: No ""
-	draw_text(1665, 13, string("Keycard: No ") + "");
+	draw_text(1515, 13, string("Keycard: No ") + "");
 }

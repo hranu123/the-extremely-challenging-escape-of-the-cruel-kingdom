@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 53B957BC
-/// @DnDArgument : "font" "fnt_coin_count"
-/// @DnDSaveInfo : "font" "fnt_coin_count"
-draw_set_font(fnt_coin_count);
+/// @DnDArgument : "font" "fnt_gui"
+/// @DnDSaveInfo : "font" "fnt_gui"
+draw_set_font(fnt_gui);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
