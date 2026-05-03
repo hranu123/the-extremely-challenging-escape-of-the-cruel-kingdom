@@ -74,5 +74,11 @@ else
 		/// @DnDSaveInfo : "spriteind" "spr_knight_up"
 		sprite_index = spr_knight_up;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Common.Exit_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 41C33764
+		/// @DnDParent : 39D16CD7
+		exit;
 	}
 }

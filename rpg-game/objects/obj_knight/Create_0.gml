@@ -8,16 +8,16 @@ guard_patrol_speed = 1.5;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7EE3FA19
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "6"
 /// @DnDArgument : "var" "guard_chase_speed"
-guard_chase_speed = 3;
+guard_chase_speed = 6;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1DAFC6BE
-/// @DnDArgument : "expr" "100"
+/// @DnDArgument : "expr" "5"
 /// @DnDArgument : "var" "guard_walk_detect_range"
-guard_walk_detect_range = 100;
+guard_walk_detect_range = 5;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

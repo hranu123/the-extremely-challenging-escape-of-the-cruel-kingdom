@@ -51,8 +51,8 @@ global.var_has_keycard  = false;
 /// @DnDVersion : 1
 /// @DnDHash : 4FFB74B0
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "var_dead"
-var_dead = false;
+/// @DnDArgument : "var" "global.var_dead"
+global.var_dead = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -74,3 +74,17 @@ global.player_sprinting = false;
 /// @DnDArgument : "expr" ""none""
 /// @DnDArgument : "var" "global.death_cause"
 global.death_cause = "none";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 539A5016
+/// @DnDArgument : "expr" "x"
+/// @DnDArgument : "var" "prev_x"
+prev_x = x;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1B462D4A
+/// @DnDArgument : "expr" "y"
+/// @DnDArgument : "var" "prev_y"
+prev_y = y;
