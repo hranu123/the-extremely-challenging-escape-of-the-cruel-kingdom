@@ -14,10 +14,10 @@ if(var_can_take_damage == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4010401A
 	/// @DnDParent : 3BE432ED
-	/// @DnDArgument : "expr" "-25"
+	/// @DnDArgument : "expr" "-100"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "global.health"
-	global.health += -25;
+	global.health += -100;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -29,11 +29,11 @@ if(var_can_take_damage == true)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 4C61CFE5
+		/// @DnDHash : 00B1EEE3
 		/// @DnDParent : 58DEB700
-		/// @DnDArgument : "expr" ""spike""
+		/// @DnDArgument : "expr" ""knight""
 		/// @DnDArgument : "var" "global.death_cause"
-		global.death_cause = "spike";
+		global.death_cause = "knight";
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -50,11 +50,4 @@ if(var_can_take_damage == true)
 	/// @DnDArgument : "expr" "false"
 	/// @DnDArgument : "var" "var_can_take_damage"
 	var_can_take_damage = false;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
-	/// @DnDVersion : 1
-	/// @DnDHash : 67F71DA1
-	/// @DnDParent : 3BE432ED
-	/// @DnDArgument : "steps" "60"
-	alarm_set(0, 60);
 }

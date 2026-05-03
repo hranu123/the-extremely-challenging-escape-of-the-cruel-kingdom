@@ -39,3 +39,24 @@ guard_current_detect_range = guard_walk_detect_range;
 /// @DnDArgument : "expr" "guard_patrol_speed"
 /// @DnDArgument : "var" "speed"
 speed = guard_patrol_speed;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7739F470
+/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "var" "guard_patrol_animation_speed"
+guard_patrol_animation_speed = 5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 51CDA0D7
+/// @DnDArgument : "expr" "guard_patrol_animation_speed"
+/// @DnDArgument : "var" "guard_animation_speed"
+guard_animation_speed = guard_patrol_animation_speed;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4577EB36
+/// @DnDArgument : "expr" "8"
+/// @DnDArgument : "var" "guard_chase_animation_speed"
+guard_chase_animation_speed = 8;

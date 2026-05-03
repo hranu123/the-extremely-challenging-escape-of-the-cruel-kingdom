@@ -67,3 +67,10 @@ var_can_take_damage = true;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "global.player_sprinting"
 global.player_sprinting = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 13B83BCC
+/// @DnDArgument : "expr" ""none""
+/// @DnDArgument : "var" "global.death_cause"
+global.death_cause = "none";

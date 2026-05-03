@@ -31,6 +31,7 @@
     {"id":{"name":"spr_knight_left","path":"sprites/spr_knight_left/spr_knight_left.yy",},"order":26,},
     {"id":{"name":"spr_brother_down","path":"sprites/spr_brother_down/spr_brother_down.yy",},"order":6,},
     {"id":{"name":"spr_enter_castle","path":"sprites/spr_enter_castle/spr_enter_castle.yy",},"order":23,},
+    {"id":{"name":"spr_guard_dog_1_up","path":"sprites/spr_guard_dog_1_up/spr_guard_dog_1_up.yy",},"order":28,},
     {"id":{"name":"spr_knight_up","path":"sprites/spr_knight_up/spr_knight_up.yy",},"order":25,},
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},"order":1,},
     {"id":{"name":"fnt_intro_text","path":"fonts/fnt_intro_text/fnt_intro_text.yy",},"order":0,},
@@ -38,6 +39,7 @@
     {"id":{"name":"You_lose","path":"rooms/You_lose/You_lose.yy",},"order":5,},
     {"id":{"name":"spr_tileset_for_interior_of_castle","path":"sprites/spr_tileset_for_interior_of_castle/spr_tileset_for_interior_of_castle.yy",},"order":1,},
     {"id":{"name":"obj_alarm_system","path":"objects/obj_alarm_system/obj_alarm_system.yy",},"order":17,},
+    {"id":{"name":"You_lose_guard","path":"rooms/You_lose_guard/You_lose_guard.yy",},"order":6,},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":22,},
     {"id":{"name":"obj_keycard","path":"objects/obj_keycard/obj_keycard.yy",},"order":6,},
     {"id":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},"order":0,},
@@ -81,6 +83,7 @@
     {"roomId":{"name":"Intro_text","path":"rooms/Intro_text/Intro_text.yy",},},
     {"roomId":{"name":"Controls_lobby","path":"rooms/Controls_lobby/Controls_lobby.yy",},},
     {"roomId":{"name":"Exit_you_win","path":"rooms/Exit_you_win/Exit_you_win.yy",},},
+    {"roomId":{"name":"You_lose_guard","path":"rooms/You_lose_guard/You_lose_guard.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":12,},

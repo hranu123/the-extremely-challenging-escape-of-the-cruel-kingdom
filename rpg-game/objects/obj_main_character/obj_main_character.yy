@@ -51,6 +51,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":27,"eventType":9,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enter_castle","path":"objects/obj_enter_castle/obj_enter_castle.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_keycard_collection_zone_from_guard1","path":"objects/obj_keycard_collection_zone_from_guard1/obj_keycard_collection_zone_from_guard1.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

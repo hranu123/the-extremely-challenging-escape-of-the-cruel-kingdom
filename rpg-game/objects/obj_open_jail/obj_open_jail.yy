@@ -7,7 +7,7 @@
     "path": "sprites/spr_open_jail/spr_open_jail.yy",
   },
   "solid": true,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

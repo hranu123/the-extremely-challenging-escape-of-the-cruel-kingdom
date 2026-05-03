@@ -53,3 +53,17 @@ if(room == Intro_text)
 	/// @DnDParent : 15E07890
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6D5F2966
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "You_lose_guard"
+if(room == You_lose_guard)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 72D99360
+	/// @DnDParent : 6D5F2966
+	instance_destroy();
+}
