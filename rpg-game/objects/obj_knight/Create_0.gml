@@ -60,3 +60,10 @@ guard_animation_speed = guard_patrol_animation_speed;
 /// @DnDArgument : "expr" "8"
 /// @DnDArgument : "var" "guard_chase_animation_speed"
 guard_chase_animation_speed = 8;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5B2789F2
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "guard__death_delay_active"
+guard__death_delay_active = false;

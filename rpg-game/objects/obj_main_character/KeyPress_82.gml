@@ -1,7 +1,7 @@
-/// @DnDAction : YoYo Games.Rooms.Restart_Room
+/// @DnDAction : YoYo Games.Game.Restart_Game
 /// @DnDVersion : 1
-/// @DnDHash : 34761DE6
-room_restart();
+/// @DnDHash : 7789F389
+game_restart();
 
 /// @DnDAction : YoYo Games.Movement.Jump_To_Start
 /// @DnDVersion : 1
