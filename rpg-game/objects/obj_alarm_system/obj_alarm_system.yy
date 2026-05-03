@@ -1,13 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_keycard_collection_zone_from_guard",
-  "spriteId": {
-    "name": "spr_keycard_collection_zone_from_guard",
-    "path": "sprites/spr_keycard_collection_zone_from_guard/spr_keycard_collection_zone_from_guard.yy",
-  },
+  "name": "obj_alarm_system",
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,7 +21,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

@@ -63,7 +63,7 @@ var_can_take_damage = true;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 741B777A
+/// @DnDHash : 2146DE11
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "global.var_alarm_active"
-global.var_alarm_active = false;
+/// @DnDArgument : "var" "global.player_sprinting"
+global.player_sprinting = false;
