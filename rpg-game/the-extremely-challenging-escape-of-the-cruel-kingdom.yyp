@@ -63,6 +63,7 @@
     {"id":{"name":"obj_intro_text","path":"objects/obj_intro_text/obj_intro_text.yy",},"order":12,},
     {"id":{"name":"spr_open_jail","path":"sprites/spr_open_jail/spr_open_jail.yy",},"order":16,},
     {"id":{"name":"spr_main_character_right","path":"sprites/spr_main_character_right/spr_main_character_right.yy",},"order":4,},
+    {"id":{"name":"obj_dog_blocker","path":"objects/obj_dog_blocker/obj_dog_blocker.yy",},"order":26,},
     {"id":{"name":"obj_keycard_collection_zone_from_guard1","path":"objects/obj_keycard_collection_zone_from_guard1/obj_keycard_collection_zone_from_guard1.yy",},"order":22,},
     {"id":{"name":"obj_character_blocker","path":"objects/obj_character_blocker/obj_character_blocker.yy",},"order":3,},
     {"id":{"name":"Intro_text","path":"rooms/Intro_text/Intro_text.yy",},"order":1,},

@@ -52,6 +52,14 @@ else
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 13477104
+	/// @DnDParent : 055F755D
+	/// @DnDArgument : "expr" "guard_patrol_direction"
+	/// @DnDArgument : "var" "direction"
+	direction = guard_patrol_direction;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 2F82C37F
 	/// @DnDParent : 055F755D
 	/// @DnDArgument : "expr" "guard_patrol_speed"

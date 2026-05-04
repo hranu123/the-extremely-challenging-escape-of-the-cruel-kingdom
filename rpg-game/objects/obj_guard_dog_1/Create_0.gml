@@ -1,16 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 48D04FC4
-/// @DnDArgument : "expr" "1.5"
+/// @DnDArgument : "expr" "6.5"
 /// @DnDArgument : "var" "dog_1_patrol_speed"
-dog_1_patrol_speed = 1.5;
+dog_1_patrol_speed = 6.5;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7EE3FA19
-/// @DnDArgument : "expr" "6"
+/// @DnDArgument : "expr" "8.5"
 /// @DnDArgument : "var" "dog_1_chase_speed"
-dog_1_chase_speed = 6;
+dog_1_chase_speed = 8.5;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

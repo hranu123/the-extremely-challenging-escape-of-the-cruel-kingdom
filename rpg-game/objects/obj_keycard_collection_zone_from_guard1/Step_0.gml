@@ -24,9 +24,9 @@ if(has_discovered_player == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1FCF64E4
 	/// @DnDParent : 1051E1D8
-	/// @DnDArgument : "expr" "point_direction(x, y, obj_demon_guard.x, obj_demon_guard.y)"
+	/// @DnDArgument : "expr" "point_direction(x, y, obj_main_character.x, obj_main_character.y)"
 	/// @DnDArgument : "var" "direction"
-	direction = point_direction(x, y, obj_demon_guard.x, obj_demon_guard.y);
+	direction = point_direction(x, y, obj_main_character.x, obj_main_character.y);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -50,6 +50,14 @@ if(has_discovered_player == true)
 /// @DnDHash : 055F755D
 else
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 13477104
+	/// @DnDParent : 055F755D
+	/// @DnDArgument : "expr" "guard_patrol_direction"
+	/// @DnDArgument : "var" "direction"
+	direction = guard_patrol_direction;
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F82C37F

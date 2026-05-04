@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_knight_blocker",
+  "name": "obj_dog_blocker",
   "spriteId": {
-    "name": "spr_knight_blocker",
-    "path": "sprites/spr_knight_blocker/spr_knight_blocker.yy",
+    "name": "spr_dog_blocker",
+    "path": "sprites/spr_dog_blocker/spr_dog_blocker.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1DF929EB
-/// @DnDArgument : "expr" "guard_patrol_speed"
+/// @DnDArgument : "expr" "dog_1_patrol_speed"
 /// @DnDArgument : "var" "speed"
-speed = guard_patrol_speed;
+speed = dog_1_patrol_speed;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
