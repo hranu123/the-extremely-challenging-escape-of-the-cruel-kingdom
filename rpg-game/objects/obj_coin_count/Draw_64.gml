@@ -16,11 +16,11 @@ draw_set_alpha(l3E4DE551_0 / $ff);
 /// @DnDVersion : 1
 /// @DnDHash : 79B01E1B
 /// @DnDArgument : "x1" "12"
-/// @DnDArgument : "y1" "10"
+/// @DnDArgument : "y1" "5"
 /// @DnDArgument : "x2" "400"
 /// @DnDArgument : "y2" "95"
 /// @DnDArgument : "fill" "1"
-draw_rectangle(12, 10, 400, 95, 0);
+draw_rectangle(12, 5, 400, 95, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

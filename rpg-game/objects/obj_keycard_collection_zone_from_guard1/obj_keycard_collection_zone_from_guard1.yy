@@ -7,7 +7,7 @@
     "path": "sprites/spr_keycard_collection_zone_from_guard/spr_keycard_collection_zone_from_guard.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

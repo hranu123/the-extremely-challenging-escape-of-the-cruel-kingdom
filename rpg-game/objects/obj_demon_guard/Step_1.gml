@@ -78,5 +78,12 @@ else
 		/// @DnDSaveInfo : "spriteind" "spr_demon_guard_up"
 		sprite_index = spr_demon_guard_up;
 		image_index = -1;
+	
+		/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+		/// @DnDVersion : 1
+		/// @DnDHash : 770D2894
+		/// @DnDParent : 41778A83
+		/// @DnDArgument : "speed" "guard_patrol_animation_speed"
+		image_speed = guard_patrol_animation_speed;
 	}
 }
