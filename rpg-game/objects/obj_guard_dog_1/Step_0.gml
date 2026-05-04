@@ -32,17 +32,17 @@ if(has_discovered_player == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 63795057
 	/// @DnDParent : 1051E1D8
-	/// @DnDArgument : "expr" "guard_chase_speed"
+	/// @DnDArgument : "expr" "dog_1_chase_speed"
 	/// @DnDArgument : "var" "speed"
-	speed = guard_chase_speed;
+	speed = dog_1_chase_speed;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5F51724F
 	/// @DnDParent : 1051E1D8
-	/// @DnDArgument : "expr" "guard_chase_animation_speed"
+	/// @DnDArgument : "expr" "dog_1_chase_animation_speed"
 	/// @DnDArgument : "var" "guard_animation_speed"
-	guard_animation_speed = guard_chase_animation_speed;
+	guard_animation_speed = dog_1_chase_animation_speed;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -54,15 +54,15 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F82C37F
 	/// @DnDParent : 055F755D
-	/// @DnDArgument : "expr" "guard_patrol_speed"
+	/// @DnDArgument : "expr" "dog_1_patrol_speed"
 	/// @DnDArgument : "var" "speed"
-	speed = guard_patrol_speed;
+	speed = dog_1_patrol_speed;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 2AF82229
 	/// @DnDParent : 055F755D
-	/// @DnDArgument : "expr" "guard_patrol_animation_speed"
-	/// @DnDArgument : "var" "guard_animation_speed"
-	guard_animation_speed = guard_patrol_animation_speed;
+	/// @DnDArgument : "expr" "dog_1_animation_speed"
+	/// @DnDArgument : "var" "dog_1_animation_speed"
+	dog_1_animation_speed = dog_1_animation_speed;
 }

@@ -74,10 +74,3 @@ guard__death_delay_active = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "has_discovered_player"
 has_discovered_player = false;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 2D46CCAE
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "image_speed"
-image_speed = 1;

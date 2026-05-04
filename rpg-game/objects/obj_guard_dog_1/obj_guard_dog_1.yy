@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_demon_guard19",
+  "name": "obj_guard_dog_1",
   "spriteId": {
-    "name": "spr_demon_guard_down",
-    "path": "sprites/spr_demon_guard_down/spr_demon_guard_down.yy",
+    "name": "spr_guard_dog_1_down",
+    "path": "sprites/spr_guard_dog_1_down/spr_guard_dog_1_down.yy",
   },
   "solid": false,
   "visible": true,
