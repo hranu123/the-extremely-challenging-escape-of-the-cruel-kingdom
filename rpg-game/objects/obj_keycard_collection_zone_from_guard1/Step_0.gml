@@ -1,16 +1,16 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 64A8DF55
-/// @DnDArgument : "expr" "distance_to_object(obj_knight) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range)"
-if(distance_to_object(obj_knight) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range))
+/// @DnDArgument : "expr" "distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range)"
+if(distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1FCF64E4
 	/// @DnDParent : 64A8DF55
-	/// @DnDArgument : "expr" "point_direction(x, y, obj_knight.x, obj_knight.y)"
+	/// @DnDArgument : "expr" "point_direction(x, y, obj_demon_guard.x, obj_demon_guard.y)"
 	/// @DnDArgument : "var" "direction"
-	direction = point_direction(x, y, obj_knight.x, obj_knight.y);
+	direction = point_direction(x, y, obj_demon_guard.x, obj_demon_guard.y);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
