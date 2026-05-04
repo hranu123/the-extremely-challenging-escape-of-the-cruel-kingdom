@@ -6,8 +6,24 @@ if(distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 1FCF64E4
+	/// @DnDHash : 7E21A72E
 	/// @DnDParent : 64A8DF55
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "has_discovered_player"
+	has_discovered_player = true;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1051E1D8
+/// @DnDArgument : "var" "has_discovered_player"
+/// @DnDArgument : "value" "true"
+if(has_discovered_player == true)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1FCF64E4
+	/// @DnDParent : 1051E1D8
 	/// @DnDArgument : "expr" "point_direction(x, y, obj_demon_guard.x, obj_demon_guard.y)"
 	/// @DnDArgument : "var" "direction"
 	direction = point_direction(x, y, obj_demon_guard.x, obj_demon_guard.y);
@@ -15,10 +31,18 @@ if(distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 63795057
-	/// @DnDParent : 64A8DF55
+	/// @DnDParent : 1051E1D8
 	/// @DnDArgument : "expr" "guard_chase_speed"
 	/// @DnDArgument : "var" "speed"
 	speed = guard_chase_speed;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5F51724F
+	/// @DnDParent : 1051E1D8
+	/// @DnDArgument : "expr" "guard_chase_animation_speed"
+	/// @DnDArgument : "var" "guard_animation_speed"
+	guard_animation_speed = guard_chase_animation_speed;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -33,4 +57,12 @@ else
 	/// @DnDArgument : "expr" "guard_patrol_speed"
 	/// @DnDArgument : "var" "speed"
 	speed = guard_patrol_speed;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2AF82229
+	/// @DnDParent : 055F755D
+	/// @DnDArgument : "expr" "guard_patrol_animation_speed"
+	/// @DnDArgument : "var" "guard_animation_speed"
+	guard_animation_speed = guard_patrol_animation_speed;
 }
