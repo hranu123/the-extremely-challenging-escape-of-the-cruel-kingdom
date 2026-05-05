@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 64A8DF55
-/// @DnDArgument : "expr" "distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range)"
-if(distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range))
+/// @DnDArgument : "expr" "distance_to_object(obj_main_character) <= dog_1_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= dog_1_sprint_detect_range)"
+if(distance_to_object(obj_main_character) <= dog_1_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= dog_1_sprint_detect_range))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -41,8 +41,8 @@ if(has_discovered_player == true)
 	/// @DnDHash : 5F51724F
 	/// @DnDParent : 1051E1D8
 	/// @DnDArgument : "expr" "dog_1_chase_animation_speed"
-	/// @DnDArgument : "var" "guard_animation_speed"
-	guard_animation_speed = dog_1_chase_animation_speed;
+	/// @DnDArgument : "var" "dog_1_animation_speed"
+	dog_1_animation_speed = dog_1_chase_animation_speed;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -50,6 +50,14 @@ if(has_discovered_player == true)
 /// @DnDHash : 055F755D
 else
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2E368C09
+	/// @DnDParent : 055F755D
+	/// @DnDArgument : "expr" "dog_patrol_direction"
+	/// @DnDArgument : "var" "direction"
+	direction = dog_patrol_direction;
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F82C37F
@@ -62,7 +70,7 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 2AF82229
 	/// @DnDParent : 055F755D
-	/// @DnDArgument : "expr" "dog_1_animation_speed"
+	/// @DnDArgument : "expr" "dog_1_patrol_animation_speed"
 	/// @DnDArgument : "var" "dog_1_animation_speed"
-	dog_1_animation_speed = dog_1_animation_speed;
+	dog_1_animation_speed = dog_1_patrol_animation_speed;
 }

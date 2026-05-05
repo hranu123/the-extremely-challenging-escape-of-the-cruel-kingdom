@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 48D04FC4
-/// @DnDArgument : "expr" "6.5"
+/// @DnDArgument : "expr" "4"
 /// @DnDArgument : "var" "dog_1_patrol_speed"
-dog_1_patrol_speed = 6.5;
+dog_1_patrol_speed = 4;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -50,9 +50,9 @@ dog_1_patrol_animation_speed = 5;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 51CDA0D7
-/// @DnDArgument : "expr" "guard_patrol_animation_speed"
+/// @DnDArgument : "expr" "dog_1_patrol_animation_speed"
 /// @DnDArgument : "var" "dog_1_animation_speed"
-dog_1_animation_speed = guard_patrol_animation_speed;
+dog_1_animation_speed = dog_1_patrol_animation_speed;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -74,3 +74,9 @@ dog_1__death_delay_active = false;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "has_discovered_player"
 has_discovered_player = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 091B34BE
+/// @DnDArgument : "var" "dog_patrol_direction"
+dog_patrol_direction = 0;
