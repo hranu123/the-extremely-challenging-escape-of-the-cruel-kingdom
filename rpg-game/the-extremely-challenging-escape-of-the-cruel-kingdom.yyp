@@ -59,6 +59,7 @@
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},"order":15,},
     {"id":{"name":"spr_brother_up","path":"sprites/spr_brother_up/spr_brother_up.yy",},"order":7,},
     {"id":{"name":"spr_alien_guard_down","path":"sprites/spr_alien_guard_down/spr_alien_guard_down.yy",},"order":36,},
+    {"id":{"name":"obj_demon_guard21","path":"objects/obj_demon_guard21/obj_demon_guard21.yy",},"order":27,},
     {"id":{"name":"spr_keypad","path":"sprites/spr_keypad/spr_keypad.yy",},"order":15,},
     {"id":{"name":"spr_coinicon","path":"sprites/spr_coinicon/spr_coinicon.yy",},"order":12,},
     {"id":{"name":"spr_dog_blocker","path":"sprites/spr_dog_blocker/spr_dog_blocker.yy",},"order":34,},
