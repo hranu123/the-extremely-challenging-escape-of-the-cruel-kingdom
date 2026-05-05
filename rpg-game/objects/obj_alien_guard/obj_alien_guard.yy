@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_demon_guard21",
+  "name": "obj_alien_guard",
   "spriteId": {
-    "name": "spr_demon_guard_down",
-    "path": "sprites/spr_demon_guard_down/spr_demon_guard_down.yy",
+    "name": "spr_alien_guard_down",
+    "path": "sprites/spr_alien_guard_down/spr_alien_guard_down.yy",
   },
   "solid": false,
   "visible": true,
