@@ -57,9 +57,9 @@ dog_1_animation_speed = dog_1_patrol_animation_speed;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4577EB36
-/// @DnDArgument : "expr" "8"
+/// @DnDArgument : "expr" "11"
 /// @DnDArgument : "var" "dog_1_chase_animation_speed"
-dog_1_chase_animation_speed = 8;
+dog_1_chase_animation_speed = 11;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
