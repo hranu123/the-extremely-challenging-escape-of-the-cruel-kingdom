@@ -1,9 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object24",
-  "spriteId": null,
-  "solid": false,
+  "name": "obj_bear_trap_1",
+  "spriteId": {
+    "name": "spr_bear_trap_1_first_animation",
+    "path": "sprites/spr_bear_trap_1_first_animation/spr_bear_trap_1_first_animation.yy",
+  },
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -21,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
