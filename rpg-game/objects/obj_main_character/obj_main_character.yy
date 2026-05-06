@@ -54,6 +54,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_guard_dog_1","path":"objects/obj_guard_dog_1/obj_guard_dog_1.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_alien_guard","path":"objects/obj_alien_guard/obj_alien_guard.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_lizard_prison_guard","path":"objects/obj_lizard_prison_guard/obj_lizard_prison_guard.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_exit_castle","path":"objects/obj_exit_castle/obj_exit_castle.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
