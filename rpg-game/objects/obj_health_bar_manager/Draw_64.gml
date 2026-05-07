@@ -53,6 +53,14 @@ if(global.lives > 0)
 	}
 }
 
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 388D491D
+/// @DnDArgument : "color" "$FF32D2FF"
+draw_set_colour($FF32D2FF & $ffffff);
+var l388D491D_0=($FF32D2FF >> 24);
+draw_set_alpha(l388D491D_0 / $ff);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 5C2B28C4
