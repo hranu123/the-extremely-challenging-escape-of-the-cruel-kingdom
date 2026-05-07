@@ -61,5 +61,6 @@ if(var_can_take_damage == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 67F71DA1
 	/// @DnDParent : 3BE432ED
-	alarm_set(0, 30);
+	/// @DnDArgument : "steps" "100"
+	alarm_set(0, 100);
 }
