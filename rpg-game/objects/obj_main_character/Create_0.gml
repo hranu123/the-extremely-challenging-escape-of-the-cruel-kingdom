@@ -94,3 +94,9 @@ can_move = true;
 /// @DnDHash : 23425711
 /// @DnDArgument : "var" "h_presses"
 h_presses = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2656DD7B
+/// @DnDArgument : "var" "damage_timer"
+damage_timer = 0;

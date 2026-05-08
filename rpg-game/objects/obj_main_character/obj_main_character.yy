@@ -55,7 +55,6 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_lizard_prison_guard","path":"objects/obj_lizard_prison_guard/obj_lizard_prison_guard.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_exit_castle","path":"objects/obj_exit_castle/obj_exit_castle.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bear_trap_1","path":"objects/obj_bear_trap_1/obj_bear_trap_1.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_big_spike","path":"objects/obj_big_spike/obj_big_spike.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

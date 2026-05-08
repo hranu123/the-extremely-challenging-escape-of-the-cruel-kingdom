@@ -21,7 +21,6 @@
     {"id":{"name":"spr_exit_castle","path":"sprites/spr_exit_castle/spr_exit_castle.yy",},"order":44,},
     {"id":{"name":"spr_lizard_prison_guard_right","path":"sprites/spr_lizard_prison_guard_right/spr_lizard_prison_guard_right.yy",},"order":41,},
     {"id":{"name":"spr_big_spike_4","path":"sprites/spr_big_spike_4/spr_big_spike_4.yy",},"order":50,},
-    {"id":{"name":"test","path":"objects/test/test.yy",},"order":26,},
     {"id":{"name":"spr_restart_room_control_for_room","path":"sprites/spr_restart_room_control_for_room/spr_restart_room_control_for_room.yy",},"order":45,},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":3,},
     {"id":{"name":"obj_bear_trap_2","path":"objects/obj_bear_trap_2/obj_bear_trap_2.yy",},"order":24,},

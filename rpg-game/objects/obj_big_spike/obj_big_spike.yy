@@ -6,7 +6,7 @@
     "name": "spr_big_spike_1",
     "path": "sprites/spr_big_spike_1/spr_big_spike_1.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

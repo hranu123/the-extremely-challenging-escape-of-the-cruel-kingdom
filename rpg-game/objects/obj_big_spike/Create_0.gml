@@ -19,14 +19,7 @@ spike_can_trigger = true;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0062C1E5
-/// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "spike_animating"
-spike_animating = false;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
 /// @DnDHash : 78EB47F8
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "spike_touching"
-spike_touching = false;
+/// @DnDArgument : "var" "spike_active"
+spike_active = false;
