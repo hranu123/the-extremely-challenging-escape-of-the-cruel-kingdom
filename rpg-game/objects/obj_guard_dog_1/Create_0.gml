@@ -28,13 +28,6 @@ dog_1_sprint_detect_range = 650;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 6EBF275A
-/// @DnDArgument : "expr" "dog_1_walk_detect_range"
-/// @DnDArgument : "var" "dog_1_current_detect_range"
-dog_1_current_detect_range = dog_1_walk_detect_range;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
 /// @DnDHash : 7BF7ACBE
 /// @DnDArgument : "expr" "dog_1_patrol_speed"
 /// @DnDArgument : "var" "speed"
@@ -60,13 +53,6 @@ dog_1_animation_speed = dog_1_patrol_animation_speed;
 /// @DnDArgument : "expr" "11"
 /// @DnDArgument : "var" "dog_1_chase_animation_speed"
 dog_1_chase_animation_speed = 11;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 5B2789F2
-/// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "dog_1__death_delay_active"
-dog_1__death_delay_active = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_small_spike",
   "spriteId": {
-    "name": "spr_small_spike",
-    "path": "sprites/spr_small_spike/spr_small_spike.yy",
+    "name": "spr_small_spike_1",
+    "path": "sprites/spr_small_spike_1/spr_small_spike_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

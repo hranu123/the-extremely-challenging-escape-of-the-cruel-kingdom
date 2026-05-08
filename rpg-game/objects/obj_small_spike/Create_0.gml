@@ -22,3 +22,10 @@ spike_active = false;
 /// @DnDHash : 27C4BBBB
 /// @DnDArgument : "var" "reset_timer"
 reset_timer = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 310DBE9D
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "can_reactivate"
+can_reactivate = true;

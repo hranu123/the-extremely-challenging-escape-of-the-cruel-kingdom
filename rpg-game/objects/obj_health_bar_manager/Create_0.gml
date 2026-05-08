@@ -26,13 +26,6 @@ global.max_health = 100;
 /// @DnDArgument : "var" "global.health"
 global.health = global.max_health;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 3DB348DA
-/// @DnDArgument : "expr" "Level1"
-/// @DnDArgument : "var" "global.start_room"
-global.start_room = Level1;
-
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 7DA10103

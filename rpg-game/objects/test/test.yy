@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_big_spike",
-  "spriteId": {
-    "name": "spr_big_spike_1",
-    "path": "sprites/spr_big_spike_1/spr_big_spike_1.yy",
-  },
+  "name": "test",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,7 +22,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
