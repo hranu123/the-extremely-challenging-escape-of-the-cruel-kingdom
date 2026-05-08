@@ -10,8 +10,9 @@ if(spike_timer > 0)
 	/// @DnDHash : 6C25C92F
 	/// @DnDParent : 152E429E
 	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "spike_timer"
-	spike_timer = -1;
+	spike_timer += -1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

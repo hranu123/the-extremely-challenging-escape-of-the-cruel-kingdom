@@ -128,6 +128,67 @@ if(global.health <= 0)
 				/// @DnDArgument : "room" "Controls_lobby"
 				/// @DnDSaveInfo : "room" "Controls_lobby"
 				room_goto(Controls_lobby);
+			
+				/// @DnDAction : YoYo Games.Common.If_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 2ED2BF6A
+				/// @DnDParent : 1EB36259
+				/// @DnDArgument : "var" "trapped_by_spike"
+				/// @DnDArgument : "value" "true"
+				if(trapped_by_spike == true)
+				{
+					/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+					/// @DnDVersion : 1
+					/// @DnDHash : 63594534
+					/// @DnDParent : 2ED2BF6A
+					/// @DnDArgument : "key" "ord("H")"
+					var l63594534_0;
+					l63594534_0 = keyboard_check_pressed(ord("H"));
+					if (l63594534_0)
+					{
+						/// @DnDAction : YoYo Games.Common.Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 165DDA9A
+						/// @DnDParent : 63594534
+						/// @DnDArgument : "expr" "1"
+						/// @DnDArgument : "expr_relative" "1"
+						/// @DnDArgument : "var" "h_presses"
+						h_presses += 1;
+					}
+				
+					/// @DnDAction : YoYo Games.Common.If_Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 241D2FBE
+					/// @DnDParent : 2ED2BF6A
+					/// @DnDArgument : "var" "h_presses"
+					/// @DnDArgument : "op" "4"
+					/// @DnDArgument : "value" "5"
+					if(h_presses >= 5)
+					{
+						/// @DnDAction : YoYo Games.Common.Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 41543406
+						/// @DnDParent : 241D2FBE
+						/// @DnDArgument : "expr" "false"
+						/// @DnDArgument : "var" "trapped_by_spike"
+						trapped_by_spike = false;
+					
+						/// @DnDAction : YoYo Games.Common.Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 78D695E1
+						/// @DnDParent : 241D2FBE
+						/// @DnDArgument : "expr" "true"
+						/// @DnDArgument : "var" "can_move"
+						can_move = true;
+					
+						/// @DnDAction : YoYo Games.Common.Variable
+						/// @DnDVersion : 1
+						/// @DnDHash : 1014B9ED
+						/// @DnDParent : 241D2FBE
+						/// @DnDArgument : "var" "h_presses"
+						h_presses = 0;
+					}
+				}
 			}
 		}
 	}
