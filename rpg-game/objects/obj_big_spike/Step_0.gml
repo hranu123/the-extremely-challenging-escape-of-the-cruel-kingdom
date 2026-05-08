@@ -133,13 +133,62 @@ if(spike_timer <= 0)
 				/// @DnDArgument : "var" "spike_timer"
 				spike_timer = 0;
 			
-				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDAction : YoYo Games.Instances.Set_Sprite
 				/// @DnDVersion : 1
-				/// @DnDHash : 366FAF74
+				/// @DnDHash : 27C03AC9
 				/// @DnDParent : 13CBE897
-				/// @DnDArgument : "expr" "true"
-				/// @DnDArgument : "var" "spike_can_trigger"
-				spike_can_trigger = true;
+				/// @DnDArgument : "spriteind" "spr_big_spike_4"
+				/// @DnDSaveInfo : "spriteind" "spr_big_spike_4"
+				sprite_index = spr_big_spike_4;
+				image_index = 0;
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
+				/// @DnDVersion : 1
+				/// @DnDHash : 03F83257
+				/// @DnDParent : 13CBE897
+				/// @DnDArgument : "steps" "50"
+				alarm_set(0, 50);
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 08714A3A
+				/// @DnDParent : 13CBE897
+				/// @DnDArgument : "spriteind" "spr_big_spike_3"
+				/// @DnDSaveInfo : "spriteind" "spr_big_spike_3"
+				sprite_index = spr_big_spike_3;
+				image_index = 0;
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
+				/// @DnDVersion : 1
+				/// @DnDHash : 6DB97084
+				/// @DnDParent : 13CBE897
+				/// @DnDArgument : "steps" "50"
+				alarm_set(0, 50);
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 08D88496
+				/// @DnDParent : 13CBE897
+				/// @DnDArgument : "spriteind" "spr_big_spike_2"
+				/// @DnDSaveInfo : "spriteind" "spr_big_spike_2"
+				sprite_index = spr_big_spike_2;
+				image_index = 0;
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
+				/// @DnDVersion : 1
+				/// @DnDHash : 036E0371
+				/// @DnDParent : 13CBE897
+				/// @DnDArgument : "steps" "50"
+				alarm_set(0, 50);
+			
+				/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 0E7F60AC
+				/// @DnDParent : 13CBE897
+				/// @DnDArgument : "spriteind" "spr_big_spike_1"
+				/// @DnDSaveInfo : "spriteind" "spr_big_spike_1"
+				sprite_index = spr_big_spike_1;
+				image_index = 0;
 			}
 		}
 	}
