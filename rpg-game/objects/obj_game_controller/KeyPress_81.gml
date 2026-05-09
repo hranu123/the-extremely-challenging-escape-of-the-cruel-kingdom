@@ -16,7 +16,7 @@ if (l75D49179_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 25D4B06A
 	/// @DnDParent : 75D49179
-	/// @DnDArgument : "room" "Controls_lobby"
-	/// @DnDSaveInfo : "room" "Controls_lobby"
-	room_goto(Controls_lobby);
+	/// @DnDArgument : "room" "Lobby"
+	/// @DnDSaveInfo : "room" "Lobby"
+	room_goto(Lobby);
 }

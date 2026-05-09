@@ -286,9 +286,9 @@ if(global.health <= 0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 4116D360
 				/// @DnDParent : 1EB36259
-				/// @DnDArgument : "room" "Controls_lobby"
-				/// @DnDSaveInfo : "room" "Controls_lobby"
-				room_goto(Controls_lobby);
+				/// @DnDArgument : "room" "Lobby"
+				/// @DnDSaveInfo : "room" "Lobby"
+				room_goto(Lobby);
 			}
 		}
 	}
