@@ -12,6 +12,14 @@ if (l3E3A6E13_0)
 	/// @DnDParent : 3E3A6E13
 	room_restart();
 
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 78D57F66
+	/// @DnDParent : 3E3A6E13
+	/// @DnDArgument : "soundid" "snd_heartbeat"
+	/// @DnDSaveInfo : "soundid" "snd_heartbeat"
+	audio_stop_sound(snd_heartbeat);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 70513870

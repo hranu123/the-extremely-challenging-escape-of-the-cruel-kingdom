@@ -14,8 +14,8 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "snd_heartbeat",
-  "duration": 0.0,
+  "soundFile": "snd_heartbeat.mp3",
+  "duration": 21.394281,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
