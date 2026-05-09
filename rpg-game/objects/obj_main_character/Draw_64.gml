@@ -113,9 +113,29 @@ else
 	/// @DnDArgument : "caption" ""Keycard: No ""
 	draw_text(1515, 13, string("Keycard: No ") + "");
 
-	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 02A2B799
+	/// @DnDHash : 78ED1C16
 	/// @DnDParent : 30BF4DF2
-	exit;
+	/// @DnDArgument : "code" "if (bear_trapped)$(13_10){$(13_10)    draw_set_halign(fa_center);$(13_10)    draw_set_valign(fa_middle);$(13_10)    draw_set_font(fnt_press_h);$(13_10)$(13_10)    draw_text_transformed($(13_10)        605 + random_range(-4, 4),$(13_10)        720 + random_range(-4, 4),$(13_10)        "Press H to escape: " + string(bear_escape_presses),$(13_10)        1,$(13_10)        1,$(13_10)        random_range(-1, 1)$(13_10)    );$(13_10)$(13_10)$(13_10)    draw_set_halign(fa_left);$(13_10)    draw_set_valign(fa_top);$(13_10)	draw_set_font(fnt_gui)$(13_10)}"
+	if (bear_trapped)
+	{
+	    draw_set_halign(fa_center);
+	    draw_set_valign(fa_middle);
+	    draw_set_font(fnt_press_h);
+	
+	    draw_text_transformed(
+	        605 + random_range(-4, 4),
+	        720 + random_range(-4, 4),
+	        "Press H to escape: " + string(bear_escape_presses),
+	        1,
+	        1,
+	        random_range(-1, 1)
+	    );
+	
+	
+	    draw_set_halign(fa_left);
+	    draw_set_valign(fa_top);
+		draw_set_font(fnt_gui)
+	}
 }

@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 17FA3887
+/// @DnDArgument : "code" "display_set_gui_size(1210, 990);$(13_10)"
+display_set_gui_size(1210, 990);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 00955535
@@ -91,9 +97,9 @@ bear_trapped = false;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6E42062B
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "10"
 /// @DnDArgument : "var" "bear_escape_presses"
-bear_escape_presses = 5;
+bear_escape_presses = 10;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
