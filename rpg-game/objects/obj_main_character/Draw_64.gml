@@ -112,4 +112,21 @@ else
 	/// @DnDArgument : "y" "13"
 	/// @DnDArgument : "caption" ""Keycard: No ""
 	draw_text(1515, 13, string("Keycard: No ") + "");
+
+	/// @DnDAction : YoYo Games.Common.Exit_Event
+	/// @DnDVersion : 1
+	/// @DnDHash : 02A2B799
+	/// @DnDParent : 30BF4DF2
+	exit;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2DB76831
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "var" "bear_trapped"
+	/// @DnDArgument : "value" "true"
+	if(bear_trapped == true)
+	{
+	
+	}
 }

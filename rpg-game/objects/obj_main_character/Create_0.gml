@@ -80,3 +80,31 @@ global.death_cause = "none";
 /// @DnDHash : 2656DD7B
 /// @DnDArgument : "var" "damage_timer"
 damage_timer = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 175498ED
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "bear_trapped"
+bear_trapped = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6E42062B
+/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "var" "bear_escape_presses"
+bear_escape_presses = 5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3C8AC050
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "bear_key_ready"
+bear_key_ready = true;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 79EB2163
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "player_can_move"
+player_can_move = true;
