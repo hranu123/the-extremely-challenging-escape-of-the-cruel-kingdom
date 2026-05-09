@@ -118,17 +118,4 @@ else
 	/// @DnDHash : 02A2B799
 	/// @DnDParent : 30BF4DF2
 	exit;
-
-	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 25D296C2
-	/// @DnDParent : 30BF4DF2
-	/// @DnDArgument : "code" "draw_text(50, 50,$(13_10)"bear_trapped = " + string(bear_trapped) +$(13_10)"\nbear_escape_presses = " + string(bear_escape_presses) +$(13_10)"\nplayer_can_move = " + string(player_can_move) +$(13_10)"\nx = " + string(x) +$(13_10)"\ny = " + string(y)$(13_10));"
-	draw_text(50, 50,
-	"bear_trapped = " + string(bear_trapped) +
-	"\nbear_escape_presses = " + string(bear_escape_presses) +
-	"\nplayer_can_move = " + string(player_can_move) +
-	"\nx = " + string(x) +
-	"\ny = " + string(y)
-	);
 }
