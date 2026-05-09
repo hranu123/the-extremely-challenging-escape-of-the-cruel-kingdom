@@ -97,14 +97,13 @@ bear_escape_presses = 5;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3C8AC050
-/// @DnDArgument : "expr" "true"
-/// @DnDArgument : "var" "bear_key_ready"
-bear_key_ready = true;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
 /// @DnDHash : 79EB2163
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "var" "player_can_move"
 player_can_move = true;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6F3D6563
+/// @DnDArgument : "var" "bear_trap_cooldown"
+bear_trap_cooldown = 0;

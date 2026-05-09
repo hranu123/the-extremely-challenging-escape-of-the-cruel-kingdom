@@ -89,7 +89,8 @@ else
 		/// @DnDHash : 3418E7E3
 		/// @DnDParent : 2062AE0F
 		/// @DnDArgument : "expr" "!bear_trapped"
-		if(!bear_trapped)
+		/// @DnDArgument : "not" "1"
+		if(!(!bear_trapped))
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
