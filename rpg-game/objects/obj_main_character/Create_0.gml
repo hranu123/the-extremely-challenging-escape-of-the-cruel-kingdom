@@ -113,3 +113,10 @@ player_can_move = true;
 /// @DnDHash : 6F3D6563
 /// @DnDArgument : "var" "bear_trap_cooldown"
 bear_trap_cooldown = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1DE277D6
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "global.alarm_active"
+global.alarm_active = false;

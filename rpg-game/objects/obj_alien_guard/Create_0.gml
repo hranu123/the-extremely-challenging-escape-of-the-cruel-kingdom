@@ -70,13 +70,6 @@ guard__death_delay_active = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4F962A69
-/// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "has_discovered_player"
-has_discovered_player = false;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
 /// @DnDHash : 50CBD868
 /// @DnDArgument : "var" "guard_patrol_direction"
 guard_patrol_direction = 0;

@@ -9,16 +9,16 @@ if(distance_to_object(obj_main_character) <= dog_1_walk_detect_range || (global.
 	/// @DnDHash : 7E21A72E
 	/// @DnDParent : 64A8DF55
 	/// @DnDArgument : "expr" "true"
-	/// @DnDArgument : "var" "has_discovered_player"
-	has_discovered_player = true;
+	/// @DnDArgument : "var" "global.has_discovered_player"
+	global.has_discovered_player = true;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1051E1D8
-/// @DnDArgument : "var" "has_discovered_player"
+/// @DnDArgument : "var" "global.has_discovered_player"
 /// @DnDArgument : "value" "true"
-if(has_discovered_player == true)
+if(global.has_discovered_player == true)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
