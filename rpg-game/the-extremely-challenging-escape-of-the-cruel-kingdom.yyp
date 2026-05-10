@@ -63,6 +63,7 @@
     {"id":{"name":"spr_bear_trap_2_fifth_animation","path":"sprites/spr_bear_trap_2_fifth_animation/spr_bear_trap_2_fifth_animation.yy",},"order":63,},
     {"id":{"name":"spr_demon_guard_up","path":"sprites/spr_demon_guard_up/spr_demon_guard_up.yy",},"order":25,},
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},"order":1,},
+    {"id":{"name":"obj_demon_guard_kingdom_entry","path":"objects/obj_demon_guard_kingdom_entry/obj_demon_guard_kingdom_entry.yy",},"order":31,},
     {"id":{"name":"obj_bear_trap_1","path":"objects/obj_bear_trap_1/obj_bear_trap_1.yy",},"order":23,},
     {"id":{"name":"fnt_intro_text","path":"fonts/fnt_intro_text/fnt_intro_text.yy",},"order":0,},
     {"id":{"name":"spr_tileset_for_exterior_of_kingdom","path":"sprites/spr_tileset_for_exterior_of_kingdom/spr_tileset_for_exterior_of_kingdom.yy",},"order":0,},

@@ -54,6 +54,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_kingdom_door","path":"objects/obj_kingdom_door/obj_kingdom_door.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_minotaur_king","path":"objects/obj_minotaur_king/obj_minotaur_king.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_demon_guard_kingdom_entry","path":"objects/obj_demon_guard_kingdom_entry/obj_demon_guard_kingdom_entry.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
