@@ -79,31 +79,12 @@ else
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 61758C8B
+	/// @DnDHash : 073A01CF
 	/// @DnDParent : 4C29707C
-	/// @DnDArgument : "code" "if (damage_timer > 0)$(13_10){$(13_10)    damage_timer -= 1;$(13_10)}$(13_10)$(13_10)if (damage_timer <= 0)$(13_10){$(13_10)    var_can_take_damage = true;$(13_10)}$(13_10)$(13_10)$(13_10)if (bear_trapped)$(13_10){$(13_10)    player_can_move = false;$(13_10)$(13_10)   $(13_10)    if (var_can_take_damage == true)$(13_10)    {$(13_10)        global.health -= current_trap_damage;$(13_10)        var_can_take_damage = false;$(13_10)        damage_timer = 200;$(13_10)    }$(13_10)$(13_10)    if (keyboard_check_pressed(ord("H")))$(13_10)    {$(13_10)        bear_escape_presses -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_escape_presses <= 0)$(13_10)    {$(13_10)        bear_trapped = false;$(13_10)        player_can_move = true;$(13_10)        bear_trap_cooldown = 30;$(13_10)$(13_10)        current_bear_trap = noone;$(13_10)        current_trap_damage = 0;$(13_10)$(13_10)        audio_stop_sound(snd_heartbeat);$(13_10)    }$(13_10)}$(13_10)else$(13_10){$(13_10)    if (bear_trap_cooldown > 0)$(13_10)    {$(13_10)        bear_trap_cooldown -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_trap_cooldown <= 0)$(13_10)    {$(13_10)        if (place_meeting(x, y, obj_bear_trap_1))$(13_10)        {$(13_10)            bear_trapped = true;$(13_10)            bear_escape_presses = 10;$(13_10)            player_can_move = false;$(13_10)$(13_10)            current_bear_trap = obj_bear_trap_1;$(13_10)            current_trap_damage = 25;$(13_10)$(13_10)            damage_timer = 0;$(13_10)            var_can_take_damage = true;$(13_10)$(13_10)            audio_play_sound(snd_heartbeat, 1, true);$(13_10)        }$(13_10)        else if (place_meeting(x, y, obj_bear_trap_2))$(13_10)        {$(13_10)            bear_trapped = true;$(13_10)            bear_escape_presses = 10;$(13_10)            player_can_move = false;$(13_10)$(13_10)            current_bear_trap = obj_bear_trap_2;$(13_10)            current_trap_damage = 20;$(13_10)$(13_10)            damage_timer = 0;$(13_10)            var_can_take_damage = true;$(13_10)$(13_10)            audio_play_sound(snd_heartbeat, 1, true);$(13_10)        }$(13_10)        else$(13_10)        {$(13_10)            player_can_move = true;$(13_10)        }$(13_10)    }$(13_10)}$(13_10)"
-	if (damage_timer > 0)
-	{
-	    damage_timer -= 1;
-	}
-	
-	if (damage_timer <= 0)
-	{
-	    var_can_take_damage = true;
-	}
-	
-	
+	/// @DnDArgument : "code" "if (bear_trapped)$(13_10){$(13_10)    player_can_move = false;$(13_10)$(13_10)    if (keyboard_check_pressed(ord("H")))$(13_10)    {$(13_10)        bear_escape_presses -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_escape_presses <= 0)$(13_10)    {$(13_10)        bear_trapped = false;$(13_10)        player_can_move = true;$(13_10)        bear_trap_cooldown = 30;$(13_10)$(13_10)        audio_stop_sound(snd_heartbeat);$(13_10)    }$(13_10)}$(13_10)else$(13_10){$(13_10)    if (bear_trap_cooldown > 0)$(13_10)    {$(13_10)        bear_trap_cooldown -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_trap_cooldown <= 0 && place_meeting(x, y, obj_bear_trap_1))$(13_10)    {$(13_10)        bear_trapped = true;$(13_10)        bear_escape_presses = 10;$(13_10)        player_can_move = false;$(13_10)$(13_10)        audio_play_sound(snd_heartbeat, 1, true);$(13_10)    }$(13_10)    else$(13_10)    {$(13_10)        player_can_move = true;$(13_10)    }$(13_10)}"
 	if (bear_trapped)
 	{
 	    player_can_move = false;
-	
-	   
-	    if (var_can_take_damage == true)
-	    {
-	        global.health -= current_trap_damage;
-	        var_can_take_damage = false;
-	        damage_timer = 200;
-	    }
 	
 	    if (keyboard_check_pressed(ord("H")))
 	    {
@@ -116,8 +97,96 @@ else
 	        player_can_move = true;
 	        bear_trap_cooldown = 30;
 	
-	        current_bear_trap = noone;
-	        current_trap_damage = 0;
+	        audio_stop_sound(snd_heartbeat);
+	    }
+	}
+	else
+	{
+	    if (bear_trap_cooldown > 0)
+	    {
+	        bear_trap_cooldown -= 1;
+	    }
+	
+	    if (bear_trap_cooldown <= 0 && place_meeting(x, y, obj_bear_trap_1))
+	    {
+	        bear_trapped = true;
+	        bear_escape_presses = 10;
+	        player_can_move = false;
+	
+	        audio_play_sound(snd_heartbeat, 1, true);
+	    }
+	    else
+	    {
+	        player_can_move = true;
+	    }
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 7811D543
+/// @DnDArgument : "expr" "instance_place(x, y, obj_bear_trap_1)"
+if(instance_place(x, y, obj_bear_trap_1))
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E805A40
+	/// @DnDParent : 7811D543
+	/// @DnDArgument : "var" "var_can_take_damage"
+	/// @DnDArgument : "value" "true"
+	if(var_can_take_damage == true)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1E25EC9C
+		/// @DnDParent : 4E805A40
+		/// @DnDArgument : "expr" "-20"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "global.health"
+		global.health += -20;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 297A4B38
+		/// @DnDParent : 4E805A40
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "var_can_take_damage"
+		var_can_take_damage = false;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 49003324
+		/// @DnDParent : 4E805A40
+		/// @DnDArgument : "expr" "100"
+		/// @DnDArgument : "var" "damage_timer"
+		damage_timer = 100;
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 435C4CB1
+else
+{
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 50884928
+	/// @DnDParent : 435C4CB1
+	/// @DnDArgument : "code" "if (bear_trapped)$(13_10){$(13_10)    player_can_move = false;$(13_10)$(13_10)    if (keyboard_check_pressed(ord("H")))$(13_10)    {$(13_10)        bear_escape_presses -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_escape_presses <= 0)$(13_10)    {$(13_10)        bear_trapped = false;$(13_10)        player_can_move = true;$(13_10)        bear_trap_cooldown = 30;$(13_10)$(13_10)        audio_stop_sound(snd_heartbeat);$(13_10)    }$(13_10)}$(13_10)else$(13_10){$(13_10)    if (bear_trap_cooldown > 0)$(13_10)    {$(13_10)        bear_trap_cooldown -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_trap_cooldown <= 0 && place_meeting(x, y, obj_bear_trap_2))$(13_10)    {$(13_10)        bear_trapped = true;$(13_10)        bear_escape_presses = 10;$(13_10)        player_can_move = false;$(13_10)$(13_10)        audio_play_sound(snd_heartbeat, 1, true);$(13_10)    }$(13_10)    else$(13_10)    {$(13_10)        player_can_move = true;$(13_10)    }$(13_10)}"
+	if (bear_trapped)
+	{
+	    player_can_move = false;
+	
+	    if (keyboard_check_pressed(ord("H")))
+	    {
+	        bear_escape_presses -= 1;
+	    }
+	
+	    if (bear_escape_presses <= 0)
+	    {
+	        bear_trapped = false;
+	        player_can_move = true;
+	        bear_trap_cooldown = 30;
 	
 	        audio_stop_sound(snd_heartbeat);
 	    }
@@ -129,41 +198,59 @@ else
 	        bear_trap_cooldown -= 1;
 	    }
 	
-	    if (bear_trap_cooldown <= 0)
+	    if (bear_trap_cooldown <= 0 && place_meeting(x, y, obj_bear_trap_2))
 	    {
-	        if (place_meeting(x, y, obj_bear_trap_1))
-	        {
-	            bear_trapped = true;
-	            bear_escape_presses = 10;
-	            player_can_move = false;
+	        bear_trapped = true;
+	        bear_escape_presses = 10;
+	        player_can_move = false;
 	
-	            current_bear_trap = obj_bear_trap_1;
-	            current_trap_damage = 25;
-	
-	            damage_timer = 0;
-	            var_can_take_damage = true;
-	
-	            audio_play_sound(snd_heartbeat, 1, true);
-	        }
-	        else if (place_meeting(x, y, obj_bear_trap_2))
-	        {
-	            bear_trapped = true;
-	            bear_escape_presses = 10;
-	            player_can_move = false;
-	
-	            current_bear_trap = obj_bear_trap_2;
-	            current_trap_damage = 20;
-	
-	            damage_timer = 0;
-	            var_can_take_damage = true;
-	
-	            audio_play_sound(snd_heartbeat, 1, true);
-	        }
-	        else
-	        {
-	            player_can_move = true;
-	        }
+	        audio_play_sound(snd_heartbeat, 1, true);
 	    }
+	    else
+	    {
+	        player_can_move = true;
+	    }
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 14AEF226
+/// @DnDArgument : "expr" "instance_place(x, y, obj_bear_trap_2)"
+if(instance_place(x, y, obj_bear_trap_2))
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 747AB19B
+	/// @DnDParent : 14AEF226
+	/// @DnDArgument : "var" "var_can_take_damage"
+	/// @DnDArgument : "value" "true"
+	if(var_can_take_damage == true)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 10F9CD64
+		/// @DnDParent : 747AB19B
+		/// @DnDArgument : "expr" "-25"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "global.health"
+		global.health += -25;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 19558AAC
+		/// @DnDParent : 747AB19B
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "var_can_take_damage"
+		var_can_take_damage = false;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 649D2FC3
+		/// @DnDParent : 747AB19B
+		/// @DnDArgument : "expr" "100"
+		/// @DnDArgument : "var" "damage_timer"
+		damage_timer = 100;
 	}
 }
 

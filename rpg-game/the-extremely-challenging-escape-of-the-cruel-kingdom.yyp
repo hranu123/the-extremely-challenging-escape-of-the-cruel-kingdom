@@ -75,6 +75,7 @@
     {"id":{"name":"obj_main_character","path":"objects/obj_main_character/obj_main_character.yy",},"order":0,},
     {"id":{"name":"spr_brother_right","path":"sprites/spr_brother_right/spr_brother_right.yy",},"order":9,},
     {"id":{"name":"spr_castle_door","path":"sprites/spr_castle_door/spr_castle_door.yy",},"order":59,},
+    {"id":{"name":"test","path":"objects/test/test.yy",},"order":30,},
     {"id":{"name":"obj_minotaur_king","path":"objects/obj_minotaur_king/obj_minotaur_king.yy",},"order":27,},
     {"id":{"name":"ts_exterior_of_kingdom","path":"tilesets/ts_exterior_of_kingdom/ts_exterior_of_kingdom.yy",},"order":0,},
     {"id":{"name":"spr_guard_dog_1_right","path":"sprites/spr_guard_dog_1_right/spr_guard_dog_1_right.yy",},"order":33,},

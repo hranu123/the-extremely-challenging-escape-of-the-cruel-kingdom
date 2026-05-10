@@ -120,3 +120,16 @@ bear_trap_cooldown = 0;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "global.alarm_active"
 global.alarm_active = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 16201FFE
+/// @DnDArgument : "expr" "noone"
+/// @DnDArgument : "var" "current_bear_trap"
+current_bear_trap = noone;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3AD7940C
+/// @DnDArgument : "var" "current_trap_damage"
+current_trap_damage = 0;
