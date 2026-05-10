@@ -127,10 +127,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Intro_text","path":"rooms/Intro_text/Intro_text.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
     {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
-    {"roomId":{"name":"Intro_text","path":"rooms/Intro_text/Intro_text.yy",},},
     {"roomId":{"name":"You_lose","path":"rooms/You_lose/You_lose.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Exit_you_win","path":"rooms/Exit_you_win/Exit_you_win.yy",},},

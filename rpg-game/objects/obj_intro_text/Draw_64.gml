@@ -8,17 +8,8 @@ draw_set_font(fnt_intro_text);
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
 /// @DnDHash : 42D44542
-/// @DnDArgument : "halign" "fa_center"
-/// @DnDArgument : "valign" "fa_middle"
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
-
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 65780D52
-draw_set_colour($FFFFFFFF & $ffffff);
-var l65780D52_0=($FFFFFFFF >> 24);
-draw_set_alpha(l65780D52_0 / $ff);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alpha
 /// @DnDVersion : 1
@@ -26,102 +17,88 @@ draw_set_alpha(l65780D52_0 / $ff);
 /// @DnDArgument : "alpha" "var_intro_alpha"
 draw_set_alpha(var_intro_alpha);
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 05F48183
-/// @DnDArgument : "var" "var_intro_timer"
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "20"
-if(var_intro_timer >= 20)
+/// @DnDHash : 5422D91D
+/// @DnDArgument : "code" "function draw_gold_white_text(_text, _x, _y)$(13_10){$(13_10)    var current_x = _x;$(13_10)$(13_10)    for (var i = 1; i <= string_length(_text); i++)$(13_10)    {$(13_10)        var letter = string_char_at(_text, i);$(13_10)$(13_10)        // ALTERNATE EVERY SINGLE LETTER$(13_10)        // Odd letters = dark gold$(13_10)        // Even letters = white$(13_10)$(13_10)        if (i mod 2 == 1)$(13_10)        {$(13_10)            // DARKER GOLD$(13_10)            draw_set_colour(make_colour_rgb(184, 134, 11));$(13_10)        }$(13_10)        else$(13_10)        {$(13_10)            // WHITE$(13_10)            draw_set_colour(c_white);$(13_10)        }$(13_10)$(13_10)        draw_text(current_x, _y, letter);$(13_10)$(13_10)        current_x += string_width(letter);$(13_10)    }$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)// DRAW INTRO TEXT$(13_10)$(13_10)if (var_intro_timer >= 20)$(13_10){$(13_10)    draw_gold_white_text($(13_10)        "Welcome to the cruel castle!",$(13_10)        330,$(13_10)        220$(13_10)    );$(13_10)}$(13_10)$(13_10)$(13_10)if (var_intro_timer >= 80)$(13_10){$(13_10)    draw_gold_white_text($(13_10)        "Are you capable of helping your brother escape from",$(13_10)        330,$(13_10)        290$(13_10)    );$(13_10)}$(13_10)$(13_10)$(13_10)if (var_intro_timer >= 140)$(13_10){$(13_10)    draw_gold_white_text($(13_10)        "The Minotaur King, Horribe Harod III, his knights, and the Queen,",$(13_10)        330,$(13_10)        360$(13_10)    );$(13_10)}$(13_10)$(13_10)$(13_10)if (var_intro_timer >= 200)$(13_10){$(13_10)    draw_gold_white_text($(13_10)        "or will you be captured like previous visitors",$(13_10)        330,$(13_10)        430$(13_10)    );$(13_10)}$(13_10)$(13_10)$(13_10)if (var_intro_timer >= 260)$(13_10){$(13_10)    draw_gold_white_text($(13_10)        "who attempted to save their friends!!!",$(13_10)        330,$(13_10)        500$(13_10)    );$(13_10)}$(13_10)$(13_10)"
+function draw_gold_white_text(_text, _x, _y)
 {
-	/// @DnDAction : YoYo Games.Drawing.Draw_Value
-	/// @DnDVersion : 1
-	/// @DnDHash : 72091B94
-	/// @DnDParent : 05F48183
-	/// @DnDArgument : "x" "683"
-	/// @DnDArgument : "y" "220"
-	/// @DnDArgument : "caption" ""Welcome to the cruel castle! ""
-	draw_text(683, 220, string("Welcome to the cruel castle! ") + "");
+    var current_x = _x;
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 3CBA6B84
-	/// @DnDParent : 05F48183
-	/// @DnDArgument : "var" "var_intro_timer"
-	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "80"
-	if(var_intro_timer >= 80)
-	{
-		/// @DnDAction : YoYo Games.Drawing.Draw_Value
-		/// @DnDVersion : 1
-		/// @DnDHash : 3F78DCD4
-		/// @DnDParent : 3CBA6B84
-		/// @DnDArgument : "x" "683"
-		/// @DnDArgument : "y" "290"
-		/// @DnDArgument : "caption" ""Are you capable of helping your brother escape from""
-		draw_text(683, 290, string("Are you capable of helping your brother escape from") + "");
-	
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 43F152A9
-		/// @DnDParent : 3CBA6B84
-		/// @DnDArgument : "var" "var_intro_timer"
-		/// @DnDArgument : "op" "4"
-		/// @DnDArgument : "value" "140"
-		if(var_intro_timer >= 140)
-		{
-			/// @DnDAction : YoYo Games.Drawing.Draw_Value
-			/// @DnDVersion : 1
-			/// @DnDHash : 42809675
-			/// @DnDParent : 43F152A9
-			/// @DnDArgument : "x" "683"
-			/// @DnDArgument : "y" "360"
-			/// @DnDArgument : "caption" "" The Minotaur King, Horrible Harold III, his knights, and the Queen, ""
-			draw_text(683, 360, string(" The Minotaur King, Horrible Harold III, his knights, and the Queen, ") + "");
-		
-			/// @DnDAction : YoYo Games.Common.If_Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 55BB0D80
-			/// @DnDParent : 43F152A9
-			/// @DnDArgument : "var" "var_intro_timer"
-			/// @DnDArgument : "op" "4"
-			/// @DnDArgument : "value" "200"
-			if(var_intro_timer >= 200)
-			{
-				/// @DnDAction : YoYo Games.Drawing.Draw_Value
-				/// @DnDVersion : 1
-				/// @DnDHash : 3D46487E
-				/// @DnDParent : 55BB0D80
-				/// @DnDArgument : "x" "683"
-				/// @DnDArgument : "y" "430"
-				/// @DnDArgument : "caption" ""or will you be captured like previous visitors ""
-				draw_text(683, 430, string("or will you be captured like previous visitors ") + "");
-			
-				/// @DnDAction : YoYo Games.Common.If_Variable
-				/// @DnDVersion : 1
-				/// @DnDHash : 398B48E2
-				/// @DnDParent : 55BB0D80
-				/// @DnDArgument : "var" "var_intro_timer"
-				/// @DnDArgument : "op" "4"
-				/// @DnDArgument : "value" "260"
-				if(var_intro_timer >= 260)
-				{
-					/// @DnDAction : YoYo Games.Drawing.Draw_Value
-					/// @DnDVersion : 1
-					/// @DnDHash : 212113D5
-					/// @DnDParent : 398B48E2
-					/// @DnDArgument : "x" "683"
-					/// @DnDArgument : "y" "500"
-					/// @DnDArgument : "caption" ""who attempted to save their friends!!! ""
-					draw_text(683, 500, string("who attempted to save their friends!!! ") + "");
-				
-					/// @DnDAction : YoYo Games.Drawing.Set_Alpha
-					/// @DnDVersion : 1
-					/// @DnDHash : 5DE0865F
-					/// @DnDParent : 398B48E2
-					draw_set_alpha(1);
-				}
-			}
-		}
-	}
+    for (var i = 1; i <= string_length(_text); i++)
+    {
+        var letter = string_char_at(_text, i);
+
+        // ALTERNATE EVERY SINGLE LETTER
+        // Odd letters = dark gold
+        // Even letters = white
+
+        if (i mod 2 == 1)
+        {
+            // DARKER GOLD
+            draw_set_colour(make_colour_rgb(184, 134, 11));
+        }
+        else
+        {
+            // WHITE
+            draw_set_colour(c_white);
+        }
+
+        draw_text(current_x, _y, letter);
+
+        current_x += string_width(letter);
+    }
+}
+
+
+
+// DRAW INTRO TEXT
+
+if (var_intro_timer >= 20)
+{
+    draw_gold_white_text(
+        "Welcome to the cruel castle!",
+        330,
+        220
+    );
+}
+
+
+if (var_intro_timer >= 80)
+{
+    draw_gold_white_text(
+        "Are you capable of helping your brother escape from",
+        330,
+        290
+    );
+}
+
+
+if (var_intro_timer >= 140)
+{
+    draw_gold_white_text(
+        "The Minotaur King, Horribe Harod III, his knights, and the Queen,",
+        330,
+        360
+    );
+}
+
+
+if (var_intro_timer >= 200)
+{
+    draw_gold_white_text(
+        "or will you be captured like previous visitors",
+        330,
+        430
+    );
+}
+
+
+if (var_intro_timer >= 260)
+{
+    draw_gold_white_text(
+        "who attempted to save their friends!!!",
+        330,
+        500
+    );
 }
