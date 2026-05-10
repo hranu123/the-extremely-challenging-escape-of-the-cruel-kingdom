@@ -65,11 +65,18 @@ guard_chase_animation_speed = 8;
 /// @DnDVersion : 1
 /// @DnDHash : 4F962A69
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "global.has_discovered_player"
-global.has_discovered_player = false;
+/// @DnDArgument : "var" "global.has_discovered_player2"
+global.has_discovered_player2 = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 50CBD868
 /// @DnDArgument : "var" "guard_patrol_direction"
 guard_patrol_direction = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 206A5895
+/// @DnDArgument : "expr" "noone"
+/// @DnDArgument : "var" "global.alarm_sound_id"
+global.alarm_sound_id = noone;

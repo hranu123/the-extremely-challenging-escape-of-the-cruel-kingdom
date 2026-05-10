@@ -58,11 +58,18 @@ dog_1_chase_animation_speed = 11;
 /// @DnDVersion : 1
 /// @DnDHash : 4F962A69
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "global.has_discovered_player"
-global.has_discovered_player = false;
+/// @DnDArgument : "var" "global.has_discovered_player3"
+global.has_discovered_player3 = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 091B34BE
 /// @DnDArgument : "var" "dog_patrol_direction"
 dog_patrol_direction = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 05629495
+/// @DnDArgument : "expr" "noone"
+/// @DnDArgument : "var" "global.alarm_sound_id"
+global.alarm_sound_id = noone;

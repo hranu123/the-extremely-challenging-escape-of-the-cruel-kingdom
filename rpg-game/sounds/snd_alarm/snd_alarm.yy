@@ -4,7 +4,7 @@
   "name": "snd_alarm",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.5,
+  "volume": 0.75,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_alarm.mp3",
-  "duration": 550.7918,
+  "duration": 5.928,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

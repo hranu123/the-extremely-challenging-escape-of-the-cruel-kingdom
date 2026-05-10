@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 573603F6
-/// @DnDArgument : "var" "global.has_discovered_player"
+/// @DnDArgument : "var" "global.has_discovered_player3"
 /// @DnDArgument : "value" "false"
-if(global.has_discovered_player == false)
+if(global.has_discovered_player3 == false)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
