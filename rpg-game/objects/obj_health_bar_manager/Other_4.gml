@@ -16,8 +16,8 @@ if(room == You_lose)
 /// @DnDVersion : 1
 /// @DnDHash : 2D1AE822
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "Controls_lobby"
-if(room == Controls_lobby)
+/// @DnDArgument : "value" "Lobby"
+if(room == Lobby)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -65,5 +65,33 @@ if(room == You_lose_guard)
 	/// @DnDVersion : 1
 	/// @DnDHash : 72D99360
 	/// @DnDParent : 6D5F2966
+	instance_destroy();
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7BF92037
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Controls"
+if(room == Controls)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 390CA016
+	/// @DnDParent : 7BF92037
+	instance_destroy();
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6C5A0B97
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "Enter_Kingdom"
+if(room == Enter_Kingdom)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 6F498E75
+	/// @DnDParent : 6C5A0B97
 	instance_destroy();
 }

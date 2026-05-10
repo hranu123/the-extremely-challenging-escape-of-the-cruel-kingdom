@@ -76,8 +76,8 @@ if(var_intro_timer >= 20)
 			/// @DnDParent : 43F152A9
 			/// @DnDArgument : "x" "683"
 			/// @DnDArgument : "y" "360"
-			/// @DnDArgument : "caption" ""King Horrible Harold III, his knights, and the Queen, ""
-			draw_text(683, 360, string("King Horrible Harold III, his knights, and the Queen, ") + "");
+			/// @DnDArgument : "caption" "" The Minotaur King, Horrible Harold III, his knights, and the Queen, ""
+			draw_text(683, 360, string(" The Minotaur King, Horrible Harold III, his knights, and the Queen, ") + "");
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
