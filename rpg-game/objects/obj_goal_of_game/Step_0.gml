@@ -11,8 +11,8 @@ var_intro_timer += 1;
 /// @DnDHash : 16C018EB
 /// @DnDArgument : "var" "var_intro_timer"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "600"
-if(var_intro_timer >= 600)
+/// @DnDArgument : "value" "850"
+if(var_intro_timer >= 850)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -29,15 +29,15 @@ if(var_intro_timer >= 600)
 	/// @DnDParent : 16C018EB
 	/// @DnDArgument : "var" "var_intro_timer"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "700"
-	if(var_intro_timer >= 700)
+	/// @DnDArgument : "value" "925"
+	if(var_intro_timer >= 925)
 	{
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 3F843C15
 		/// @DnDParent : 108C338F
-		/// @DnDArgument : "room" "Level1"
-		/// @DnDSaveInfo : "room" "Level1"
-		room_goto(Level1);
+		/// @DnDArgument : "room" "Intro_text"
+		/// @DnDSaveInfo : "room" "Intro_text"
+		room_goto(Intro_text);
 	}
 }
