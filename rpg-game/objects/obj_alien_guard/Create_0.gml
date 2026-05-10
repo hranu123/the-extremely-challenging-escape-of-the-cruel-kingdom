@@ -70,8 +70,8 @@ guard_patrol_direction = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2CA2CD1C
-/// @DnDArgument : "var" "global.has_discovered_player5"
-global.has_discovered_player5 = 0;
+/// @DnDArgument : "var" "global.has_discovered_player6"
+global.has_discovered_player6 = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

@@ -374,9 +374,9 @@ if(global.health <= 0)
 				/// @DnDVersion : 1
 				/// @DnDHash : 4116D360
 				/// @DnDParent : 1EB36259
-				/// @DnDArgument : "room" "Lobby"
-				/// @DnDSaveInfo : "room" "Lobby"
-				room_goto(Lobby);
+				/// @DnDArgument : "room" "You_lose"
+				/// @DnDSaveInfo : "room" "You_lose"
+				room_goto(You_lose);
 			
 				/// @DnDAction : YoYo Games.Audio.Stop_Audio
 				/// @DnDVersion : 1
@@ -393,23 +393,6 @@ if(global.health <= 0)
 				/// @DnDArgument : "soundid" "snd_heartbeat"
 				/// @DnDSaveInfo : "soundid" "snd_heartbeat"
 				audio_stop_sound(snd_heartbeat);
-			}
-		
-			/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
-			/// @DnDVersion : 1
-			/// @DnDHash : 3B5E3EC4
-			/// @DnDParent : 6C67FCC9
-			var l3B5E3EC4_0;
-			l3B5E3EC4_0 = keyboard_check_pressed(vk_space);
-			if (l3B5E3EC4_0)
-			{
-				/// @DnDAction : YoYo Games.Audio.Play_Audio
-				/// @DnDVersion : 1.1
-				/// @DnDHash : 2AAA3B1A
-				/// @DnDParent : 3B5E3EC4
-				/// @DnDArgument : "soundid" "snd_alarm"
-				/// @DnDSaveInfo : "soundid" "snd_alarm"
-				audio_play_sound(snd_alarm, 0, 0, 1.0, undefined, 1.0);
 			}
 		}
 	}

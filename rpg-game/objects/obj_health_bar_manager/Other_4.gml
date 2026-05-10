@@ -81,17 +81,3 @@ if(room == Controls)
 	/// @DnDParent : 7BF92037
 	instance_destroy();
 }
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 6C5A0B97
-/// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "Enter_Kingdom"
-if(room == Enter_Kingdom)
-{
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 6F498E75
-	/// @DnDParent : 6C5A0B97
-	instance_destroy();
-}

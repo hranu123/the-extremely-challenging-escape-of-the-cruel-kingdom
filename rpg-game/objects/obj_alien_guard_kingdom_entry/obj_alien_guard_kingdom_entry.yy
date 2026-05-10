@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_guard_dog_1",
+  "name": "obj_alien_guard_kingdom_entry",
   "spriteId": {
-    "name": "spr_guard_dog_1_down",
-    "path": "sprites/spr_guard_dog_1_down/spr_guard_dog_1_down.yy",
+    "name": "spr_alien_guard_down",
+    "path": "sprites/spr_alien_guard_down/spr_alien_guard_down.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,9 +26,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_dog_blocker","path":"objects/obj_dog_blocker/obj_dog_blocker.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_knight_blocker","path":"objects/obj_knight_blocker/obj_knight_blocker.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":1,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

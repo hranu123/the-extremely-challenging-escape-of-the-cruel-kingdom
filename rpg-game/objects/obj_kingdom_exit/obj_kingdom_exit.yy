@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_kingdom_door",
+  "name": "obj_kingdom_exit",
   "spriteId": {
     "name": "spr_kingdom_door",
     "path": "sprites/spr_kingdom_door/spr_kingdom_door.yy",

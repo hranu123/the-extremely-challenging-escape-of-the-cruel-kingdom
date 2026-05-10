@@ -65,8 +65,8 @@ guard_chase_animation_speed = 8;
 /// @DnDVersion : 1
 /// @DnDHash : 4F962A69
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "global.has_discovered_player4"
-global.has_discovered_player4 = false;
+/// @DnDArgument : "var" "global.has_discovered_player3"
+global.has_discovered_player3 = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
