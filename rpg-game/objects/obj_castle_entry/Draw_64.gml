@@ -27,9 +27,9 @@ if(player_touching_door == true)
 		/// @DnDParent : 04AD278A
 		/// @DnDArgument : "x" "650"
 		/// @DnDArgument : "y" "600"
-		/// @DnDArgument : "caption" ""Press V to enter Castle ""
-		/// @DnDArgument : "var" "0"
-		draw_text(650, 600, string("Press V to enter Castle ") + string(0));
+		/// @DnDArgument : "caption" ""Press V to enter Castle: Coins ""
+		/// @DnDArgument : "var" "global.var_coincount"
+		draw_text(650, 600, string("Press V to enter Castle: Coins ") + string(global.var_coincount));
 	}
 }
 

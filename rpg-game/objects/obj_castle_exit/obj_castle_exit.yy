@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_castle_door",
+  "name": "obj_castle_exit",
   "spriteId": {
     "name": "spr_castle_door",
     "path": "sprites/spr_castle_door/spr_castle_door.yy",
