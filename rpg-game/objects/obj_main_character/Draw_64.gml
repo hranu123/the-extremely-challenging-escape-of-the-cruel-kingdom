@@ -36,14 +36,14 @@ if(global.var_has_keycard == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 57DE37E5
 	/// @DnDParent : 0FF48DDA
-	/// @DnDArgument : "x" "1515"
+	/// @DnDArgument : "x" "1000"
 	/// @DnDArgument : "y" "50"
 	/// @DnDArgument : "sprite" "spr_keycard_icon"
 	/// @DnDSaveInfo : "sprite" "spr_keycard_icon"
 	var l57DE37E5_0 = sprite_get_width(spr_keycard_icon);
 	var l57DE37E5_1 = 0;
 	for(var l57DE37E5_2 = 1; l57DE37E5_2 > 0; --l57DE37E5_2) {
-		draw_sprite(spr_keycard_icon, 0, 1515 + l57DE37E5_1, 50);
+		draw_sprite(spr_keycard_icon, 0, 1000 + l57DE37E5_1, 50);
 		l57DE37E5_1 += l57DE37E5_0;
 	}
 
@@ -58,10 +58,10 @@ if(global.var_has_keycard == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3740EEC8
 	/// @DnDParent : 0FF48DDA
-	/// @DnDArgument : "x" "1515"
+	/// @DnDArgument : "x" "1000"
 	/// @DnDArgument : "y" "13"
 	/// @DnDArgument : "caption" ""Keycard: Yes ""
-	draw_text(1515, 13, string("Keycard: Yes ") + "");
+	draw_text(1000, 13, string("Keycard: Yes ") + "");
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -108,10 +108,10 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 6AD67A6E
 	/// @DnDParent : 30BF4DF2
-	/// @DnDArgument : "x" "1515"
+	/// @DnDArgument : "x" "1000"
 	/// @DnDArgument : "y" "13"
 	/// @DnDArgument : "caption" ""Keycard: No ""
-	draw_text(1515, 13, string("Keycard: No ") + "");
+	draw_text(1000, 13, string("Keycard: No ") + "");
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1

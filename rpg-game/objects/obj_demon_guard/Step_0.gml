@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 64A8DF55
-/// @DnDArgument : "expr" "distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range)"
-if(distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range))
+/// @DnDArgument : "expr" "distance_to_object(obj_main_character) <= guard_walk_detect_range ||( global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range)"
+if(distance_to_object(obj_main_character) <= guard_walk_detect_range ||( global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

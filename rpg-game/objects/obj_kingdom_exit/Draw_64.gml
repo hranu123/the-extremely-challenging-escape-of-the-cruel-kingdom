@@ -21,6 +21,15 @@ if(player_touching_door == true)
 		/// @DnDSaveInfo : "font" "fnt_transport_text"
 		draw_set_font(fnt_transport_text);
 	
+		/// @DnDAction : YoYo Games.Drawing.Set_Color
+		/// @DnDVersion : 1
+		/// @DnDHash : 1B827D4C
+		/// @DnDParent : 04AD278A
+		/// @DnDArgument : "color" "$FF00C2FF"
+		draw_set_colour($FF00C2FF & $ffffff);
+		var l1B827D4C_0=($FF00C2FF >> 24);
+		draw_set_alpha(l1B827D4C_0 / $ff);
+	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
 		/// @DnDHash : 37CE9465
@@ -46,6 +55,15 @@ if(door_sequence_started == true)
 	/// @DnDArgument : "font" "fnt_transport_text"
 	/// @DnDSaveInfo : "font" "fnt_transport_text"
 	draw_set_font(fnt_transport_text);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 05602721
+	/// @DnDParent : 43D3D89D
+	/// @DnDArgument : "color" "$FF00C2FF"
+	draw_set_colour($FF00C2FF & $ffffff);
+	var l05602721_0=($FF00C2FF >> 24);
+	draw_set_alpha(l05602721_0 / $ff);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 	/// @DnDVersion : 1

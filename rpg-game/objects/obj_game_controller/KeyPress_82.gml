@@ -12,21 +12,11 @@ if (l3E3A6E13_0)
 	/// @DnDParent : 3E3A6E13
 	room_restart();
 
-	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1
-	/// @DnDHash : 78D57F66
+	/// @DnDHash : 7B5385D7
 	/// @DnDParent : 3E3A6E13
-	/// @DnDArgument : "soundid" "snd_heartbeat"
-	/// @DnDSaveInfo : "soundid" "snd_heartbeat"
-	audio_stop_sound(snd_heartbeat);
-
-	/// @DnDAction : YoYo Games.Audio.Stop_Audio
-	/// @DnDVersion : 1
-	/// @DnDHash : 31202B8E
-	/// @DnDParent : 3E3A6E13
-	/// @DnDArgument : "soundid" "snd_heartbeat"
-	/// @DnDSaveInfo : "soundid" "snd_heartbeat"
-	audio_stop_sound(snd_heartbeat);
+	audio_stop_all();
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
