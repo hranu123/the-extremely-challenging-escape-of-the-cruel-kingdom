@@ -17,19 +17,27 @@ if(player_touching_door == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 47A6A35C
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "font" "fnt_transport_text"
-		/// @DnDSaveInfo : "font" "fnt_transport_text"
-		draw_set_font(fnt_transport_text);
+		/// @DnDArgument : "font" "fnt_gui"
+		/// @DnDSaveInfo : "font" "fnt_gui"
+		draw_set_font(fnt_gui);
+	
+		/// @DnDAction : YoYo Games.Drawing.Set_Color
+		/// @DnDVersion : 1
+		/// @DnDHash : 6B0D1556
+		/// @DnDParent : 04AD278A
+		/// @DnDArgument : "color" "$FF06A2E5"
+		/// @DnDArgument : "alpha" "false"
+		draw_set_colour($FF06A2E5 & $ffffff);draw_set_alpha(1);
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
 		/// @DnDHash : 37CE9465
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "x" "650"
-		/// @DnDArgument : "y" "600"
-		/// @DnDArgument : "caption" ""Press V to enter Castle: Coins ""
-		/// @DnDArgument : "var" "global.var_coincount"
-		draw_text(650, 600, string("Press V to enter Castle: Coins ") + string(global.var_coincount));
+		/// @DnDArgument : "x" "600"
+		/// @DnDArgument : "y" "300"
+		/// @DnDArgument : "caption" ""Press V to enter Castle: Total Coins required: ""
+		/// @DnDArgument : "var" "5"
+		draw_text(600, 300, string("Press V to enter Castle: Total Coins required: ") + string(5));
 	}
 }
 
@@ -44,9 +52,17 @@ if(door_sequence_started == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 503155EE
 	/// @DnDParent : 43D3D89D
-	/// @DnDArgument : "font" "fnt_transport_text"
-	/// @DnDSaveInfo : "font" "fnt_transport_text"
-	draw_set_font(fnt_transport_text);
+	/// @DnDArgument : "font" "fnt_gui"
+	/// @DnDSaveInfo : "font" "fnt_gui"
+	draw_set_font(fnt_gui);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 30FC5FE7
+	/// @DnDParent : 43D3D89D
+	/// @DnDArgument : "color" "$FF06A2E5"
+	/// @DnDArgument : "alpha" "false"
+	draw_set_colour($FF06A2E5 & $ffffff);draw_set_alpha(1);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 	/// @DnDVersion : 1

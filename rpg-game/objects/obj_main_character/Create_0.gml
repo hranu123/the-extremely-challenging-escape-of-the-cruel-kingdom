@@ -91,8 +91,8 @@ damage_timer = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 175498ED
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "bear_trapped"
-bear_trapped = false;
+/// @DnDArgument : "var" "global.bear_trapped"
+global.bear_trapped = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

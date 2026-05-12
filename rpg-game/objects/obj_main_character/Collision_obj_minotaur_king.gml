@@ -27,6 +27,14 @@ if(var_can_take_damage == true)
 	/// @DnDArgument : "op" "3"
 	if(global.health <= 0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 12924F7E
+		/// @DnDParent : 58DEB700
+		/// @DnDArgument : "soundid" "snd_guard_laughing_after_player_death"
+		/// @DnDSaveInfo : "soundid" "snd_guard_laughing_after_player_death"
+		audio_play_sound(snd_guard_laughing_after_player_death, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 00B1EEE3

@@ -81,7 +81,7 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 61758C8B
 	/// @DnDParent : 4C29707C
-	/// @DnDArgument : "code" "if (damage_timer > 0)$(13_10){$(13_10)    damage_timer -= 1;$(13_10)}$(13_10)$(13_10)if (damage_timer <= 0)$(13_10){$(13_10)    var_can_take_damage = true;$(13_10)}$(13_10)$(13_10)$(13_10)if (bear_trapped)$(13_10){$(13_10)    player_can_move = false;$(13_10)$(13_10)   $(13_10)    if (var_can_take_damage == true)$(13_10)    {$(13_10)        global.health -= current_trap_damage;$(13_10)        var_can_take_damage = false;$(13_10)        damage_timer = 200;$(13_10)    }$(13_10)$(13_10)    if (keyboard_check_pressed(ord("H")))$(13_10)    {$(13_10)        bear_escape_presses -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_escape_presses <= 0)$(13_10)    {$(13_10)        bear_trapped = false;$(13_10)        player_can_move = true;$(13_10)        bear_trap_cooldown = 30;$(13_10)$(13_10)        current_bear_trap = noone;$(13_10)        current_trap_damage = 0;$(13_10)$(13_10)        audio_stop_sound(snd_heartbeat);$(13_10)    }$(13_10)}$(13_10)else$(13_10){$(13_10)    if (bear_trap_cooldown > 0)$(13_10)    {$(13_10)        bear_trap_cooldown -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_trap_cooldown <= 0)$(13_10)    {$(13_10)        if (place_meeting(x, y, obj_bear_trap_1))$(13_10)        {$(13_10)            audio_play_sound(snd_bear_trap,1,false)$(13_10)			bear_trapped = true;$(13_10)            bear_escape_presses = 10;$(13_10)            player_can_move = false;$(13_10)$(13_10)            current_bear_trap = obj_bear_trap_1;$(13_10)            current_trap_damage = 30;$(13_10)$(13_10)            damage_timer = 0;$(13_10)            var_can_take_damage = true;$(13_10)$(13_10)            audio_play_sound(snd_heartbeat, 1, true);$(13_10)        }$(13_10)        else if (place_meeting(x, y, obj_bear_trap_2))$(13_10)        {$(13_10)            audio_play_sound(snd_bear_trap,1,false)$(13_10)			bear_trapped = true;$(13_10)            bear_escape_presses = 10;$(13_10)            player_can_move = false;$(13_10)$(13_10)            current_bear_trap = obj_bear_trap_2;$(13_10)            current_trap_damage = 20;$(13_10)$(13_10)            damage_timer = 0;$(13_10)            var_can_take_damage = true;$(13_10)$(13_10)            audio_play_sound(snd_heartbeat, 1, true);$(13_10)        }$(13_10)        else$(13_10)        {$(13_10)            player_can_move = true;$(13_10)        }$(13_10)    }$(13_10)}$(13_10)"
+	/// @DnDArgument : "code" "if (damage_timer > 0)$(13_10){$(13_10)    damage_timer -= 1;$(13_10)}$(13_10)$(13_10)if (damage_timer <= 0)$(13_10){$(13_10)    var_can_take_damage = true;$(13_10)}$(13_10)$(13_10)$(13_10)if (global.bear_trapped)$(13_10){$(13_10)    player_can_move = false;$(13_10)$(13_10)   $(13_10)    if (var_can_take_damage == true)$(13_10)    {$(13_10)        global.health -= current_trap_damage;$(13_10)        var_can_take_damage = false;$(13_10)        damage_timer = 200;$(13_10)    }$(13_10)$(13_10)    if (keyboard_check_pressed(ord("H")))$(13_10)    {$(13_10)        bear_escape_presses -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_escape_presses <= 0)$(13_10)    {$(13_10)        global.bear_trapped = false;$(13_10)        player_can_move = true;$(13_10)        bear_trap_cooldown = 30;$(13_10)$(13_10)        current_bear_trap = noone;$(13_10)        current_trap_damage = 0;$(13_10)$(13_10)        audio_stop_sound(snd_heartbeat);$(13_10)    }$(13_10)}$(13_10)else$(13_10){$(13_10)    if (bear_trap_cooldown > 0)$(13_10)    {$(13_10)        bear_trap_cooldown -= 1;$(13_10)    }$(13_10)$(13_10)    if (bear_trap_cooldown <= 0)$(13_10)    {$(13_10)        if (place_meeting(x, y, obj_bear_trap_1))$(13_10)        {$(13_10)            audio_play_sound(snd_bear_trap,1,false)$(13_10)			global.bear_trapped = true;$(13_10)            bear_escape_presses = 10;$(13_10)            player_can_move = false;$(13_10)$(13_10)            current_bear_trap = obj_bear_trap_1;$(13_10)            current_trap_damage = 30;$(13_10)$(13_10)            damage_timer = 0;$(13_10)            var_can_take_damage = true;$(13_10)$(13_10)            audio_play_sound(snd_heartbeat, 1, true);$(13_10)        }$(13_10)        else if (place_meeting(x, y, obj_bear_trap_2))$(13_10)        {$(13_10)            audio_play_sound(snd_bear_trap,1,false)$(13_10)			global.bear_trapped = true;$(13_10)            bear_escape_presses = 10;$(13_10)            player_can_move = false;$(13_10)$(13_10)            current_bear_trap = obj_bear_trap_2;$(13_10)            current_trap_damage = 20;$(13_10)$(13_10)            damage_timer = 0;$(13_10)            var_can_take_damage = true;$(13_10)$(13_10)            audio_play_sound(snd_heartbeat, 1, true);$(13_10)        }$(13_10)        else$(13_10)        {$(13_10)            player_can_move = true;$(13_10)        }$(13_10)    }$(13_10)}$(13_10)"
 	if (damage_timer > 0)
 	{
 	    damage_timer -= 1;
@@ -93,7 +93,7 @@ else
 	}
 	
 	
-	if (bear_trapped)
+	if (global.bear_trapped)
 	{
 	    player_can_move = false;
 	
@@ -112,7 +112,7 @@ else
 	
 	    if (bear_escape_presses <= 0)
 	    {
-	        bear_trapped = false;
+	        global.bear_trapped = false;
 	        player_can_move = true;
 	        bear_trap_cooldown = 30;
 	
@@ -134,7 +134,7 @@ else
 	        if (place_meeting(x, y, obj_bear_trap_1))
 	        {
 	            audio_play_sound(snd_bear_trap,1,false)
-				bear_trapped = true;
+				global.bear_trapped = true;
 	            bear_escape_presses = 10;
 	            player_can_move = false;
 	
@@ -149,7 +149,7 @@ else
 	        else if (place_meeting(x, y, obj_bear_trap_2))
 	        {
 	            audio_play_sound(snd_bear_trap,1,false)
-				bear_trapped = true;
+				global.bear_trapped = true;
 	            bear_escape_presses = 10;
 	            player_can_move = false;
 	

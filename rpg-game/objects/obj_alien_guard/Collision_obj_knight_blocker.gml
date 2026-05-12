@@ -7,7 +7,7 @@ if(global.has_discovered_player6 == false)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 26ED197B
+	/// @DnDHash : 1B2F4C69
 	/// @DnDParent : 511948A4
 	/// @DnDArgument : "expr" "choose(0, 90, 180, 270)"
 	/// @DnDArgument : "var" "guard_patrol_direction"
