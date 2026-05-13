@@ -21,6 +21,14 @@ if(instance_exists(var_coin_to_collect) == true)
 	/// @DnDArgument : "var" "global.var_coincount"
 	global.var_coincount += 1;
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 16D74014
+	/// @DnDParent : 2F9AF5D7
+	/// @DnDArgument : "soundid" "snd_coin_collect"
+	/// @DnDSaveInfo : "soundid" "snd_coin_collect"
+	audio_play_sound(snd_coin_collect, 0, 0, 1.0, undefined, 1.0);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1A98F2E5

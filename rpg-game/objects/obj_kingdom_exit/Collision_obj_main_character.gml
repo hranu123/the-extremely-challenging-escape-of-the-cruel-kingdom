@@ -38,6 +38,14 @@ if(player_touching_door == true)
 			/// @DnDArgument : "var" "transport_timer"
 			transport_timer = 30;
 		
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 3C7CF523
+			/// @DnDParent : 75637048
+			/// @DnDArgument : "soundid" "snd_door_open"
+			/// @DnDSaveInfo : "soundid" "snd_door_open"
+			audio_play_sound(snd_door_open, 0, 0, 1.0, undefined, 1.0);
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
 			/// @DnDHash : 1E2F7E24

@@ -15,16 +15,16 @@ guard_chase_speed = 6;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1DAFC6BE
-/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "expr" "125"
 /// @DnDArgument : "var" "guard_walk_detect_range"
-guard_walk_detect_range = 50;
+guard_walk_detect_range = 125;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4480C8D5
-/// @DnDArgument : "expr" "150"
+/// @DnDArgument : "expr" "200"
 /// @DnDArgument : "var" "guard_sprint_detect_range"
-guard_sprint_detect_range = 150;
+guard_sprint_detect_range = 200;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -65,8 +65,8 @@ guard_chase_animation_speed = 8;
 /// @DnDVersion : 1
 /// @DnDHash : 4F962A69
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "global.has_discovered_player3"
-global.has_discovered_player3 = false;
+/// @DnDArgument : "var" "global.has_discovered_player10"
+global.has_discovered_player10 = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

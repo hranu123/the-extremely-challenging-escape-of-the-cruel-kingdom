@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_castle_entry",
-  "spriteId": {
-    "name": "spr_castle_door",
-    "path": "sprites/spr_castle_door/spr_castle_door.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -290,7 +290,7 @@ if(global.health <= 0)
 		
 			/// @DnDAction : YoYo Games.Rooms.Restart_Room
 			/// @DnDVersion : 1
-			/// @DnDHash : 51B99557
+			/// @DnDHash : 7B6E9048
 			/// @DnDParent : 2A25221C
 			room_restart();
 		
