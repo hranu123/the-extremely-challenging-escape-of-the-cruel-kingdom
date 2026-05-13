@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_goal_of_game.mp3",
-  "duration": 26.226936,
+  "duration": 23.823626,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
