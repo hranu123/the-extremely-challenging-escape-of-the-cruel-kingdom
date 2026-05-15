@@ -185,10 +185,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
-    {"roomId":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
-    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Exit_you_win","path":"rooms/Exit_you_win/Exit_you_win.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
+    {"roomId":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
     {"roomId":{"name":"Enter_Kingdom","path":"rooms/Enter_Kingdom/Enter_Kingdom.yy",},},
     {"roomId":{"name":"goal_of_game","path":"rooms/goal_of_game/goal_of_game.yy",},},
     {"roomId":{"name":"Intro_text","path":"rooms/Intro_text/Intro_text.yy",},},

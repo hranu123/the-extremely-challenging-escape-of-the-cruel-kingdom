@@ -11,8 +11,8 @@ if(player_touching_door == true)
 	/// @DnDParent : 0D715C94
 	/// @DnDArgument : "var" "global.var_coincount"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "5"
-	if(global.var_coincount >= 5)
+	/// @DnDArgument : "value" "10"
+	if(global.var_coincount >= 10)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

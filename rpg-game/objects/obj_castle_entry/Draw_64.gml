@@ -36,8 +36,8 @@ if(player_touching_door == true)
 		/// @DnDArgument : "x" "600"
 		/// @DnDArgument : "y" "300"
 		/// @DnDArgument : "caption" ""Press V to enter Castle: Total Coins required: ""
-		/// @DnDArgument : "var" "5"
-		draw_text(600, 300, string("Press V to enter Castle: Total Coins required: ") + string(5));
+		/// @DnDArgument : "var" "10"
+		draw_text(600, 300, string("Press V to enter Castle: Total Coins required: ") + string(10));
 	}
 }
 

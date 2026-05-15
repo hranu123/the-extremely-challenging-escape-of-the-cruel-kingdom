@@ -84,4 +84,38 @@ else
 	/// @DnDArgument : "expr" "guard_patrol_animation_speed"
 	/// @DnDArgument : "var" "guard_animation_speed"
 	guard_animation_speed = guard_patrol_animation_speed;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 513DD155
+	/// @DnDParent : 055F755D
+	/// @DnDArgument : "code" "if (global.guard_turn_cooldown > 0)$(13_10){$(13_10)    global.guard_turn_cooldown -= 1;$(13_10)}$(13_10)$(13_10)$(13_10)if (place_meeting(x, y, obj_knight_blocker) && global.guard_turn_cooldown <= 0)$(13_10){$(13_10)    x -= lengthdir_x(guard_patrol_speed + 2, guard_patrol_direction);$(13_10)    y -= lengthdir_y(guard_patrol_speed + 2, guard_patrol_direction);$(13_10)$(13_10)  $(13_10)    var old_dir = guard_patrol_direction;$(13_10)$(13_10)  $(13_10)    repeat (10)$(13_10)    {$(13_10)        guard_patrol_direction = choose(0, 90, 180, 270);$(13_10)$(13_10)        if (guard_patrol_direction != old_dir)$(13_10)        {$(13_10)            break;$(13_10)        }$(13_10)    }$(13_10)$(13_10)    $(13_10)    guard_turn_cooldown = 45;$(13_10)}$(13_10)"
+	if (global.guard_turn_cooldown > 0)
+	{
+	    global.guard_turn_cooldown -= 1;
+	}
+	
+	
+	if (place_meeting(x, y, obj_knight_blocker) && global.guard_turn_cooldown <= 0)
+	{
+	    x -= lengthdir_x(guard_patrol_speed + 2, guard_patrol_direction);
+	    y -= lengthdir_y(guard_patrol_speed + 2, guard_patrol_direction);
+	
+	  
+	    var old_dir = guard_patrol_direction;
+	
+	  
+	    repeat (10)
+	    {
+	        guard_patrol_direction = choose(0, 90, 180, 270);
+	
+	        if (guard_patrol_direction != old_dir)
+	        {
+	            break;
+	        }
+	    }
+	
+	    
+	    guard_turn_cooldown = 45;
+	}
 }

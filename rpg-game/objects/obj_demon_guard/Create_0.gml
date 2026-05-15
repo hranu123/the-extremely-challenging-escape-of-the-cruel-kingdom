@@ -87,3 +87,9 @@ global.alarm_sound_id = noone;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "global.player_sprinting"
 global.player_sprinting = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 43119D6C
+/// @DnDArgument : "var" "global.guard_turn_cooldown"
+global.guard_turn_cooldown = 0;
