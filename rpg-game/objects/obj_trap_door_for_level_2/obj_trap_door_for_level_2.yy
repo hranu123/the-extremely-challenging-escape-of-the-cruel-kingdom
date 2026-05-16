@@ -6,7 +6,7 @@
     "name": "spr_you_win_exit_castle_door_1",
     "path": "sprites/spr_you_win_exit_castle_door_1/spr_you_win_exit_castle_door_1.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
