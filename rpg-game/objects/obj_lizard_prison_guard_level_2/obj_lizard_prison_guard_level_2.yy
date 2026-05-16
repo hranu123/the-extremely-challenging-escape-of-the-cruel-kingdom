@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_lizard_prison_guard",
+  "name": "obj_lizard_prison_guard_level_2",
   "spriteId": {
     "name": "spr_lizard_prison_guard_down",
     "path": "sprites/spr_lizard_prison_guard_down/spr_lizard_prison_guard_down.yy",

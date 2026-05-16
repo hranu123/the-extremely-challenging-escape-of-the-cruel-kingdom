@@ -1,0 +1,141 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 11DF52E7
+/// @DnDArgument : "font" "fnt_gui"
+/// @DnDSaveInfo : "font" "fnt_gui"
+draw_set_font(fnt_gui);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0FF48DDA
+/// @DnDArgument : "var" "global.var_has_keycard"
+/// @DnDArgument : "value" "true"
+if(global.var_has_keycard == true)
+{
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 09073039
+	/// @DnDParent : 0FF48DDA
+	/// @DnDArgument : "color" "$A30000E5"
+	draw_set_colour($A30000E5 & $ffffff);
+	var l09073039_0=($A30000E5 >> 24);
+	draw_set_alpha(l09073039_0 / $ff);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
+	/// @DnDVersion : 1
+	/// @DnDHash : 277939BC
+	/// @DnDParent : 0FF48DDA
+	/// @DnDArgument : "x1" "1990"
+	/// @DnDArgument : "y1" "5"
+	/// @DnDArgument : "x2" "1500"
+	/// @DnDArgument : "y2" "200"
+	/// @DnDArgument : "fill" "1"
+	draw_rectangle(1990, 5, 1500, 200, 0);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
+	/// @DnDVersion : 1
+	/// @DnDHash : 57DE37E5
+	/// @DnDParent : 0FF48DDA
+	/// @DnDArgument : "x" "1000"
+	/// @DnDArgument : "y" "50"
+	/// @DnDArgument : "sprite" "spr_keycard_icon"
+	/// @DnDSaveInfo : "sprite" "spr_keycard_icon"
+	var l57DE37E5_0 = sprite_get_width(spr_keycard_icon);
+	var l57DE37E5_1 = 0;
+	for(var l57DE37E5_2 = 1; l57DE37E5_2 > 0; --l57DE37E5_2) {
+		draw_sprite(spr_keycard_icon, 0, 1000 + l57DE37E5_1, 50);
+		l57DE37E5_1 += l57DE37E5_0;
+	}
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E94FBF7
+	/// @DnDParent : 0FF48DDA
+	/// @DnDArgument : "alpha" "false"
+	draw_set_colour($FFFFFFFF & $ffffff);draw_set_alpha(1);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 3740EEC8
+	/// @DnDParent : 0FF48DDA
+	/// @DnDArgument : "x" "1000"
+	/// @DnDArgument : "y" "13"
+	/// @DnDArgument : "caption" ""Keycard: Yes ""
+	draw_text(1000, 13, string("Keycard: Yes ") + "");
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 30BF4DF2
+else
+{
+	/// @DnDAction : YoYo Games.Drawing.Set_Font
+	/// @DnDVersion : 1
+	/// @DnDHash : 1991C6FB
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "font" "fnt_gui"
+	/// @DnDSaveInfo : "font" "fnt_gui"
+	draw_set_font(fnt_gui);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 5C564870
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "color" "$A30000E5"
+	draw_set_colour($A30000E5 & $ffffff);
+	var l5C564870_0=($A30000E5 >> 24);
+	draw_set_alpha(l5C564870_0 / $ff);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
+	/// @DnDVersion : 1
+	/// @DnDHash : 35EC81C3
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "x1" "1990"
+	/// @DnDArgument : "y1" "5"
+	/// @DnDArgument : "x2" "1500"
+	/// @DnDArgument : "y2" "200"
+	/// @DnDArgument : "fill" "1"
+	draw_rectangle(1990, 5, 1500, 200, 0);
+
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 36337465
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "alpha" "false"
+	draw_set_colour($FFFFFFFF & $ffffff);draw_set_alpha(1);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 6AD67A6E
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "x" "1000"
+	/// @DnDArgument : "y" "13"
+	/// @DnDArgument : "caption" ""Keycard: No ""
+	draw_text(1000, 13, string("Keycard: No ") + "");
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 78ED1C16
+	/// @DnDParent : 30BF4DF2
+	/// @DnDArgument : "code" "if (global.bear_trapped)$(13_10){$(13_10)    draw_set_halign(fa_center);$(13_10)    draw_set_valign(fa_middle);$(13_10)    draw_set_font(fnt_press_h);$(13_10)$(13_10)    draw_text_transformed($(13_10)        605 + random_range(-4, 4),$(13_10)        720 + random_range(-4, 4),$(13_10)        "Press H to escape: " + string(bear_escape_presses),$(13_10)        1,$(13_10)        1,$(13_10)        random_range(-1, 1)$(13_10)    );$(13_10)$(13_10)$(13_10)    draw_set_halign(fa_left);$(13_10)    draw_set_valign(fa_top);$(13_10)	draw_set_font(fnt_gui)$(13_10)}"
+	if (global.bear_trapped)
+	{
+	    draw_set_halign(fa_center);
+	    draw_set_valign(fa_middle);
+	    draw_set_font(fnt_press_h);
+	
+	    draw_text_transformed(
+	        605 + random_range(-4, 4),
+	        720 + random_range(-4, 4),
+	        "Press H to escape: " + string(bear_escape_presses),
+	        1,
+	        1,
+	        random_range(-1, 1)
+	    );
+	
+	
+	    draw_set_halign(fa_left);
+	    draw_set_valign(fa_top);
+		draw_set_font(fnt_gui)
+	}
+}
