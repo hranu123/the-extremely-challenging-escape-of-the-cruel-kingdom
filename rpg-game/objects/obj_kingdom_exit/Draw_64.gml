@@ -17,9 +17,9 @@ if(player_touching_door == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 47A6A35C
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "font" "fnt_transport_text"
-		/// @DnDSaveInfo : "font" "fnt_transport_text"
-		draw_set_font(fnt_transport_text);
+		/// @DnDArgument : "font" "fnt_gui"
+		/// @DnDSaveInfo : "font" "fnt_gui"
+		draw_set_font(fnt_gui);
 	
 		/// @DnDAction : YoYo Games.Drawing.Set_Color
 		/// @DnDVersion : 1
@@ -34,10 +34,10 @@ if(player_touching_door == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 37CE9465
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "x" "850"
-		/// @DnDArgument : "y" "-300"
+		/// @DnDArgument : "x" "585"
+		/// @DnDArgument : "y" "600"
 		/// @DnDArgument : "caption" ""Press V to Exit Kingdom ""
-		draw_text(850, -300, string("Press V to Exit Kingdom ") + "");
+		draw_text(585, 600, string("Press V to Exit Kingdom ") + "");
 	}
 }
 
@@ -52,9 +52,9 @@ if(door_sequence_started == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 503155EE
 	/// @DnDParent : 43D3D89D
-	/// @DnDArgument : "font" "fnt_transport_text"
-	/// @DnDSaveInfo : "font" "fnt_transport_text"
-	draw_set_font(fnt_transport_text);
+	/// @DnDArgument : "font" "fnt_gui"
+	/// @DnDSaveInfo : "font" "fnt_gui"
+	draw_set_font(fnt_gui);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -69,9 +69,9 @@ if(door_sequence_started == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 40F2F21D
 	/// @DnDParent : 43D3D89D
-	/// @DnDArgument : "x" "850 + random_range(-(30 - transport_timer), (30 - transport_timer))"
+	/// @DnDArgument : "x" "550 + random_range(-(30 - transport_timer), (30 - transport_timer))"
 	/// @DnDArgument : "y" "-300 + random_range(-(30 - transport_timer), (30 - transport_timer))"
 	/// @DnDArgument : "caption" ""Exiting Kingdom.. ""
 	/// @DnDArgument : "angle" "random_range(-1,1)"
-	draw_text_transformed(850 + random_range(-(30 - transport_timer), (30 - transport_timer)), -300 + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Exiting Kingdom.. ") + "", 1, 1, random_range(-1,1));
+	draw_text_transformed(550 + random_range(-(30 - transport_timer), (30 - transport_timer)), -300 + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Exiting Kingdom.. ") + "", 1, 1, random_range(-1,1));
 }
