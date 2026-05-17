@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 64A8DF55
-/// @DnDArgument : "expr" "distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range)"
-if(distance_to_object(obj_main_character) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character) <= guard_sprint_detect_range))
+/// @DnDArgument : "expr" "distance_to_object(obj_main_character2) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character2) <= guard_sprint_detect_range)"
+if(distance_to_object(obj_main_character2) <= guard_walk_detect_range || (global.player_sprinting == true && distance_to_object(obj_main_character2) <= guard_sprint_detect_range))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -24,9 +24,9 @@ if(global.has_discovered_player19 == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1FCF64E4
 	/// @DnDParent : 1051E1D8
-	/// @DnDArgument : "expr" "point_direction(x, y, obj_main_character.x, obj_main_character.y)"
+	/// @DnDArgument : "expr" "point_direction(x, y, obj_main_character2.x, obj_main_character2.y)"
 	/// @DnDArgument : "var" "direction"
-	direction = point_direction(x, y, obj_main_character.x, obj_main_character.y);
+	direction = point_direction(x, y, obj_main_character2.x, obj_main_character2.y);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
