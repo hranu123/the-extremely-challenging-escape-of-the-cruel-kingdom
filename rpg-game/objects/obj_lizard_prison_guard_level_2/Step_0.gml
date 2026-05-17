@@ -24,9 +24,9 @@ if(global.has_discovered_player2 == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1FCF64E4
 	/// @DnDParent : 1051E1D8
-	/// @DnDArgument : "expr" "point_direction(x, y, obj_main_character.x, obj_main_character2.y)"
+	/// @DnDArgument : "expr" "point_direction(x, y, obj_main_character2.x, obj_main_character2.y)"
 	/// @DnDArgument : "var" "direction"
-	direction = point_direction(x, y, obj_main_character.x, obj_main_character2.y);
+	direction = point_direction(x, y, obj_main_character2.x, obj_main_character2.y);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

@@ -6,7 +6,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":832,"hview":468,"xport":0,"yport":0,"wport":1536,"hport":864,"hborder":360,"vborder":200,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_main_character_level_2","path":"objects/obj_main_character_level_2/obj_main_character_level_2.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":832,"hview":468,"xport":0,"yport":0,"wport":1536,"hport":864,"hborder":360,"vborder":200,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -75,7 +75,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F112112","properties":[],"isDnd":false,"objectId":{"name":"obj_trap_door_for_level_2","path":"objects/obj_trap_door_for_level_2/obj_trap_door_for_level_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":179.04817,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":1024.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34741642","properties":[],"isDnd":false,"objectId":{"name":"obj_trap_door_for_level_2","path":"objects/obj_trap_door_for_level_2/obj_trap_door_for_level_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":179.04817,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1760.0,"y":1024.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1BBF5F68","properties":[],"isDnd":false,"objectId":{"name":"obj_character_blocker","path":"objects/obj_character_blocker/obj_character_blocker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":26.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":160.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54BB4233","properties":[],"isDnd":false,"objectId":{"name":"obj_lizard_prison_guard_level_2","path":"objects/obj_lizard_prison_guard_level_2/obj_lizard_prison_guard_level_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":2240.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CA210F3","properties":[],"isDnd":false,"objectId":{"name":"obj_main_character2","path":"objects/obj_main_character2/obj_main_character2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1504.0,"y":2368.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_jail","tilesetId":{"name":"ts_interior_of_castle_2","path":"tilesets/ts_interior_of_castle_2/ts_interior_of_castle_2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":500,"SerialiseHeight":417,"TileCompressedData":[
@@ -687,7 +686,6 @@
     {"name":"inst_478448F2","path":"rooms/Level2/Level2.yy",},
     {"name":"inst_47481903","path":"rooms/Level2/Level2.yy",},
     {"name":"inst_1BBF5F68","path":"rooms/Level2/Level2.yy",},
-    {"name":"inst_54BB4233","path":"rooms/Level2/Level2.yy",},
     {"name":"inst_7CA210F3","path":"rooms/Level2/Level2.yy",},
   ],
   "inheritCreationOrder": false,
