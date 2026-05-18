@@ -12,6 +12,13 @@ audio_stop_sound(snd_level_1_background_music);
 /// @DnDSaveInfo : "soundid" "snd_alarm"
 audio_stop_sound(snd_alarm);
 
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0E45183B
+/// @DnDArgument : "soundid" "snd_door_open"
+/// @DnDSaveInfo : "soundid" "snd_door_open"
+audio_stop_sound(snd_door_open);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 55BE903C

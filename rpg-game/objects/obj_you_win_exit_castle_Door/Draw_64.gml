@@ -9,9 +9,9 @@ if(player_touching_door == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5970F809
 	/// @DnDParent : 5D06EF95
-	/// @DnDArgument : "font" "fnt_text"
-	/// @DnDSaveInfo : "font" "fnt_text"
-	draw_set_font(fnt_text);
+	/// @DnDArgument : "font" "fnt_door"
+	/// @DnDSaveInfo : "font" "fnt_door"
+	draw_set_font(fnt_door);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -25,10 +25,10 @@ if(player_touching_door == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5C828416
 	/// @DnDParent : 5D06EF95
-	/// @DnDArgument : "x" "550"
+	/// @DnDArgument : "x" "500"
 	/// @DnDArgument : "y" "200"
 	/// @DnDArgument : "caption" ""Press V to enter ""
-	draw_text(550, 200, string("Press V to enter ") + "");
+	draw_text(500, 200, string("Press V to enter ") + "");
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -59,9 +59,9 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 7D17FA70
 			/// @DnDParent : 5AC7DD49
-			/// @DnDArgument : "font" "fnt_text"
-			/// @DnDSaveInfo : "font" "fnt_text"
-			draw_set_font(fnt_text);
+			/// @DnDArgument : "font" "fnt_door"
+			/// @DnDSaveInfo : "font" "fnt_door"
+			draw_set_font(fnt_door);
 		
 			/// @DnDAction : YoYo Games.Drawing.Set_Color
 			/// @DnDVersion : 1
@@ -75,10 +75,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 72045477
 			/// @DnDParent : 5AC7DD49
-			/// @DnDArgument : "x" "550"
+			/// @DnDArgument : "x" "400"
 			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""15 TOTAL COINS AND KEYCARD REQUIRED""
-			draw_text(550, 300, string("15 TOTAL COINS AND KEYCARD REQUIRED") + "");
+			draw_text(400, 300, string("15 TOTAL COINS AND KEYCARD REQUIRED") + "");
 		}
 	}
 }
@@ -111,10 +111,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 790BAE35
 			/// @DnDParent : 6CB01CA9
-			/// @DnDArgument : "x" "550"
+			/// @DnDArgument : "x" "500"
 			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""NOT ENOUGH COINS""
-			draw_text(550, 300, string("NOT ENOUGH COINS") + "");
+			draw_text(500, 300, string("NOT ENOUGH COINS") + "");
 		}
 	}
 }
@@ -147,10 +147,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 24A62A4D
 			/// @DnDParent : 20AE6B71
-			/// @DnDArgument : "x" "550"
+			/// @DnDArgument : "x" "500"
 			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""KEYCARD REQUIRED""
-			draw_text(550, 300, string("KEYCARD REQUIRED") + "");
+			draw_text(500, 300, string("KEYCARD REQUIRED") + "");
 		}
 	}
 }
@@ -192,9 +192,9 @@ if(door_sequence_started == true)
 				/// @DnDVersion : 1
 				/// @DnDHash : 503155EE
 				/// @DnDParent : 66B16A09
-				/// @DnDArgument : "font" "fnt_gui"
-				/// @DnDSaveInfo : "font" "fnt_gui"
-				draw_set_font(fnt_gui);
+				/// @DnDArgument : "font" "fnt_door"
+				/// @DnDSaveInfo : "font" "fnt_door"
+				draw_set_font(fnt_door);
 			
 				/// @DnDAction : YoYo Games.Drawing.Set_Color
 				/// @DnDVersion : 1

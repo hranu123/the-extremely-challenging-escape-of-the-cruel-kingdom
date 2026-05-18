@@ -80,3 +80,9 @@ guard_patrol_direction = 0;
 /// @DnDArgument : "expr" "noone"
 /// @DnDArgument : "var" "global.alarm_sound_id"
 global.alarm_sound_id = noone;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 15C60083
+/// @DnDArgument : "var" "global.guard_turn_cooldown"
+global.guard_turn_cooldown = 0;

@@ -9,10 +9,10 @@ if(global.lives > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5FEC5285
 	/// @DnDParent : 28B6EAB8
-	/// @DnDArgument : "x" "410"
+	/// @DnDArgument : "x" "500"
 	/// @DnDArgument : "sprite" "spr_heart1"
 	/// @DnDSaveInfo : "sprite" "spr_heart1"
-	draw_sprite(spr_heart1, 0, 410, 0);
+	draw_sprite(spr_heart1, 0, 500, 0);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -27,10 +27,10 @@ if(global.lives > 0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 439D730B
 		/// @DnDParent : 75F6375E
-		/// @DnDArgument : "x" "490"
+		/// @DnDArgument : "x" "580"
 		/// @DnDArgument : "sprite" "spr_heart1"
 		/// @DnDSaveInfo : "sprite" "spr_heart1"
-		draw_sprite(spr_heart1, 0, 490, 0);
+		draw_sprite(spr_heart1, 0, 580, 0);
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -45,10 +45,10 @@ if(global.lives > 0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 77CD7CD3
 			/// @DnDParent : 588CDD2A
-			/// @DnDArgument : "x" "570"
+			/// @DnDArgument : "x" "660"
 			/// @DnDArgument : "sprite" "spr_heart1"
 			/// @DnDSaveInfo : "sprite" "spr_heart1"
-			draw_sprite(spr_heart1, 0, 570, 0);
+			draw_sprite(spr_heart1, 0, 660, 0);
 		}
 	}
 }
@@ -64,16 +64,16 @@ draw_set_alpha(l388D491D_0 / $ff);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 5C2B28C4
-/// @DnDArgument : "x" "600"
+/// @DnDArgument : "x" "660"
 /// @DnDArgument : "y" "10"
 /// @DnDArgument : "caption" ""Lives: ""
 /// @DnDArgument : "var" "global.lives"
-draw_text(600, 10, string("Lives: ") + string(global.lives));
+draw_text(660, 10, string("Lives: ") + string(global.lives));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
 /// @DnDHash : 0727CCE4
-/// @DnDArgument : "x1" "400"
+/// @DnDArgument : "x1" "525"
 /// @DnDArgument : "y1" "180"
 /// @DnDArgument : "x2" "900"
 /// @DnDArgument : "y2" "150"
@@ -82,13 +82,13 @@ draw_text(600, 10, string("Lives: ") + string(global.lives));
 /// @DnDArgument : "barcol" "$FF0000FF"
 /// @DnDArgument : "mincol" "$FFFF19B6"
 /// @DnDArgument : "maxcol" "$FFFF1928"
-draw_healthbar(400, 180, 900, 150, global.health, $FF1919FF & $FFFFFF, $FFFF19B6 & $FFFFFF, $FFFF1928 & $FFFFFF, 0, (($FF1919FF>>24) != 0), (($FF0000FF>>24) != 0));
+draw_healthbar(525, 180, 900, 150, global.health, $FF1919FF & $FFFFFF, $FFFF19B6 & $FFFFFF, $FFFF1928 & $FFFFFF, 0, (($FF1919FF>>24) != 0), (($FF0000FF>>24) != 0));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 680EE71B
-/// @DnDArgument : "x" "575"
+/// @DnDArgument : "x" "660"
 /// @DnDArgument : "y" "120"
 /// @DnDArgument : "caption" ""Health: ""
 /// @DnDArgument : "var" "global.health"
-draw_text(575, 120, string("Health: ") + string(global.health));
+draw_text(660, 120, string("Health: ") + string(global.health));

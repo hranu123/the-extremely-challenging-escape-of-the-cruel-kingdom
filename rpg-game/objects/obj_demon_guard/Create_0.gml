@@ -90,6 +90,6 @@ global.player_sprinting = false;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 43119D6C
+/// @DnDHash : 20196519
 /// @DnDArgument : "var" "global.guard_turn_cooldown"
 global.guard_turn_cooldown = 0;

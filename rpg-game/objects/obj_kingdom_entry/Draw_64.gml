@@ -34,10 +34,10 @@ if(player_touching_door == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 37CE9465
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "x" "850"
+		/// @DnDArgument : "x" "650"
 		/// @DnDArgument : "y" "525"
 		/// @DnDArgument : "caption" ""Press V to enter Kingdom ""
-		draw_text(850, 525, string("Press V to enter Kingdom ") + "");
+		draw_text(650, 525, string("Press V to enter Kingdom ") + "");
 	}
 }
 
@@ -69,9 +69,9 @@ if(door_sequence_started == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 40F2F21D
 	/// @DnDParent : 43D3D89D
-	/// @DnDArgument : "x" "850 + random_range(-(30 - transport_timer), (30 - transport_timer))"
+	/// @DnDArgument : "x" "650 + random_range(-(30 - transport_timer), (30 - transport_timer))"
 	/// @DnDArgument : "y" "525 + random_range(-(30 - transport_timer), (30 - transport_timer))"
 	/// @DnDArgument : "caption" ""Entering Kingdom.. ""
 	/// @DnDArgument : "angle" "random_range(-1,1)"
-	draw_text_transformed(850 + random_range(-(30 - transport_timer), (30 - transport_timer)), 525 + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Entering Kingdom.. ") + "", 1, 1, random_range(-1,1));
+	draw_text_transformed(650 + random_range(-(30 - transport_timer), (30 - transport_timer)), 525 + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Entering Kingdom.. ") + "", 1, 1, random_range(-1,1));
 }

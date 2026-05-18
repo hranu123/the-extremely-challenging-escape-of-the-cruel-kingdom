@@ -29,8 +29,8 @@ if(var_intro_timer >= 1590)
 	/// @DnDParent : 16C018EB
 	/// @DnDArgument : "var" "var_intro_timer"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "1650"
-	if(var_intro_timer >= 1650)
+	/// @DnDArgument : "value" "1620"
+	if(var_intro_timer >= 1620)
 	{
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1

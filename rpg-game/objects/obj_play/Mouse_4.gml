@@ -8,6 +8,6 @@ audio_play_sound(snd_mouse_click, 0, 0, 1.0, undefined, 1.0);
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 6B7D98F1
-/// @DnDArgument : "room" "goal_of_game"
-/// @DnDSaveInfo : "room" "goal_of_game"
-room_goto(goal_of_game);
+/// @DnDArgument : "room" "Enter_Kingdom"
+/// @DnDSaveInfo : "room" "Enter_Kingdom"
+room_goto(Enter_Kingdom);

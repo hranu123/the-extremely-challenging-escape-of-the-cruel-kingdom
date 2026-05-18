@@ -17,10 +17,10 @@ draw_set_alpha(l3E4DE551_0 / $ff);
 /// @DnDHash : 79B01E1B
 /// @DnDArgument : "x1" "12"
 /// @DnDArgument : "y1" "5"
-/// @DnDArgument : "x2" "500"
+/// @DnDArgument : "x2" "600"
 /// @DnDArgument : "y2" "95"
 /// @DnDArgument : "fill" "1"
-draw_rectangle(12, 5, 500, 95, 0);
+draw_rectangle(12, 5, 600, 95, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -49,7 +49,8 @@ for(var l46C4A14A_2 = 1; l46C4A14A_2 > 0; --l46C4A14A_2) {
 /// @DnDArgument : "x" "65"
 /// @DnDArgument : "y" "15"
 /// @DnDArgument : "caption" ""Total Coins Required to open exit 15:""
-draw_text(65, 15, string("Total Coins Required to open exit 15:") + "");
+/// @DnDArgument : "var" "global.var_coincount"
+draw_text(65, 15, string("Total Coins Required to open exit 15:") + string(global.var_coincount));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1

@@ -36,8 +36,8 @@ if(var_intro_timer >= 600)
 		/// @DnDVersion : 1
 		/// @DnDHash : 3F843C15
 		/// @DnDParent : 108C338F
-		/// @DnDArgument : "room" "Enter_Kingdom"
-		/// @DnDSaveInfo : "room" "Enter_Kingdom"
-		room_goto(Enter_Kingdom);
+		/// @DnDArgument : "room" "Lobby"
+		/// @DnDSaveInfo : "room" "Lobby"
+		room_goto(Lobby);
 	}
 }
