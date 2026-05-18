@@ -17,10 +17,10 @@ draw_set_alpha(l3E4DE551_0 / $ff);
 /// @DnDHash : 79B01E1B
 /// @DnDArgument : "x1" "12"
 /// @DnDArgument : "y1" "5"
-/// @DnDArgument : "x2" "525"
-/// @DnDArgument : "y2" "95"
+/// @DnDArgument : "x2" "575"
+/// @DnDArgument : "y2" "120"
 /// @DnDArgument : "fill" "1"
-draw_rectangle(12, 5, 525, 95, 0);
+draw_rectangle(12, 5, 575, 120, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -48,21 +48,21 @@ for(var l46C4A14A_2 = 1; l46C4A14A_2 > 0; --l46C4A14A_2) {
 /// @DnDHash : 756AEED5
 /// @DnDArgument : "x" "65"
 /// @DnDArgument : "y" "20"
-/// @DnDArgument : "caption" ""Coins:""
+/// @DnDArgument : "caption" ""Coins needed total 10:""
 /// @DnDArgument : "var" "global.var_coincount"
-draw_text(65, 20, string("Coins:") + string(global.var_coincount));
+draw_text(65, 20, string("Coins needed total 10:") + string(global.var_coincount));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1
 /// @DnDHash : 25C5C066
-/// @DnDArgument : "x" "145"
-/// @DnDArgument : "y" "10"
+/// @DnDArgument : "x" "60"
+/// @DnDArgument : "y" "35"
 /// @DnDArgument : "sprite" "spr_coinicon"
 /// @DnDArgument : "number" "global.var_coincount"
 /// @DnDSaveInfo : "sprite" "spr_coinicon"
 var l25C5C066_0 = sprite_get_width(spr_coinicon);
 var l25C5C066_1 = 0;
 for(var l25C5C066_2 = global.var_coincount; l25C5C066_2 > 0; --l25C5C066_2) {
-	draw_sprite(spr_coinicon, 0, 145 + l25C5C066_1, 10);
+	draw_sprite(spr_coinicon, 0, 60 + l25C5C066_1, 35);
 	l25C5C066_1 += l25C5C066_0;
 }
