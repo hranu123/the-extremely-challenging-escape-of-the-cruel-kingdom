@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6014EF1E
-/// @DnDArgument : "expr" "place_meeting(x, y, obj_main_character)"
+/// @DnDArgument : "expr" "place_meeting(x, y, obj_main_character2)"
 /// @DnDArgument : "var" "player_touching_door"
-player_touching_door = place_meeting(x, y, obj_main_character);
+player_touching_door = place_meeting(x, y, obj_main_character2);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

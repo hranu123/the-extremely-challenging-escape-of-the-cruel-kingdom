@@ -33,10 +33,10 @@ if(player_touching_door == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 37CE9465
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "x" "650"
+		/// @DnDArgument : "x" "625"
 		/// @DnDArgument : "y" "600"
-		/// @DnDArgument : "caption" ""Press V to exit Castle and win""
-		draw_text(650, 600, string("Press V to exit Castle and win") + "");
+		/// @DnDArgument : "caption" ""Press V to exit Castle and win if 15 coins and keycard acquired""
+		draw_text(625, 600, string("Press V to exit Castle and win if 15 coins and keycard acquired") + "");
 	}
 }
 
@@ -68,9 +68,9 @@ if(door_sequence_started == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 40F2F21D
 	/// @DnDParent : 43D3D89D
-	/// @DnDArgument : "x" "display_get_gui_width()/2 + random_range(-(30 - transport_timer), (30 - transport_timer))"
-	/// @DnDArgument : "y" "display_get_gui_height()/2 + random_range(-(30 - transport_timer), (30 - transport_timer))"
+	/// @DnDArgument : "x" " + random_range(-(30 - transport_timer), (30 - transport_timer))"
+	/// @DnDArgument : "y" "+ random_range(-(30 - transport_timer), (30 - transport_timer))"
 	/// @DnDArgument : "caption" ""Incorrect Door HaHa.. ""
 	/// @DnDArgument : "angle" "random_range(-2,2)"
-	draw_text_transformed(display_get_gui_width()/2 + random_range(-(30 - transport_timer), (30 - transport_timer)), display_get_gui_height()/2 + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Incorrect Door HaHa.. ") + "", 1, 1, random_range(-2,2));
+	draw_text_transformed( + random_range(-(30 - transport_timer), (30 - transport_timer)), + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Incorrect Door HaHa.. ") + "", 1, 1, random_range(-2,2));
 }

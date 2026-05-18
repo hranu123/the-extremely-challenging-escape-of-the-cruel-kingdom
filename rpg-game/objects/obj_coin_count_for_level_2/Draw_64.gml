@@ -48,8 +48,8 @@ for(var l46C4A14A_2 = 1; l46C4A14A_2 > 0; --l46C4A14A_2) {
 /// @DnDHash : 756AEED5
 /// @DnDArgument : "x" "65"
 /// @DnDArgument : "y" "15"
-/// @DnDArgument : "caption" ""Total Coins Required to open exit 10:""
-draw_text(65, 15, string("Total Coins Required to open exit 10:") + "");
+/// @DnDArgument : "caption" ""Total Coins Required to open exit 15:""
+draw_text(65, 15, string("Total Coins Required to open exit 15:") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1

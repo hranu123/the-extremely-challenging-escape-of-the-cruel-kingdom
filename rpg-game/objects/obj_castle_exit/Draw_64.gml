@@ -17,9 +17,9 @@ if(player_touching_door == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 47A6A35C
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "font" "fnt_transport_text"
-		/// @DnDSaveInfo : "font" "fnt_transport_text"
-		draw_set_font(fnt_transport_text);
+		/// @DnDArgument : "font" "fnt_press_h"
+		/// @DnDSaveInfo : "font" "fnt_press_h"
+		draw_set_font(fnt_press_h);
 	
 		/// @DnDAction : YoYo Games.Drawing.Set_Color
 		/// @DnDVersion : 1
@@ -33,11 +33,10 @@ if(player_touching_door == true)
 		/// @DnDVersion : 1
 		/// @DnDHash : 37CE9465
 		/// @DnDParent : 04AD278A
-		/// @DnDArgument : "x" "650"
-		/// @DnDArgument : "y" "600"
+		/// @DnDArgument : "x" "400"
+		/// @DnDArgument : "y" "700"
 		/// @DnDArgument : "caption" ""Press V to exit Castle ""
-		/// @DnDArgument : "var" "0"
-		draw_text(650, 600, string("Press V to exit Castle ") + string(0));
+		draw_text(400, 700, string("Press V to exit Castle ") + "");
 	}
 }
 
@@ -52,9 +51,9 @@ if(door_sequence_started == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 503155EE
 	/// @DnDParent : 43D3D89D
-	/// @DnDArgument : "font" "fnt_transport_text"
-	/// @DnDSaveInfo : "font" "fnt_transport_text"
-	draw_set_font(fnt_transport_text);
+	/// @DnDArgument : "font" "fnt_press_h"
+	/// @DnDSaveInfo : "font" "fnt_press_h"
+	draw_set_font(fnt_press_h);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
@@ -86,9 +85,9 @@ if(access_denied_timer > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 74881829
 	/// @DnDParent : 41172BDF
-	/// @DnDArgument : "font" "fnt_transport_text"
-	/// @DnDSaveInfo : "font" "fnt_transport_text"
-	draw_set_font(fnt_transport_text);
+	/// @DnDArgument : "font" "fnt_press_h"
+	/// @DnDSaveInfo : "font" "fnt_press_h"
+	draw_set_font(fnt_press_h);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1

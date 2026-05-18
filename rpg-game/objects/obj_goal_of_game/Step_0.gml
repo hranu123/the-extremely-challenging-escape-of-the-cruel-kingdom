@@ -11,8 +11,8 @@ var_intro_timer += 1;
 /// @DnDHash : 16C018EB
 /// @DnDArgument : "var" "var_intro_timer"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "1450"
-if(var_intro_timer >= 1450)
+/// @DnDArgument : "value" "1590"
+if(var_intro_timer >= 1590)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -29,8 +29,8 @@ if(var_intro_timer >= 1450)
 	/// @DnDParent : 16C018EB
 	/// @DnDArgument : "var" "var_intro_timer"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "1525"
-	if(var_intro_timer >= 1525)
+	/// @DnDArgument : "value" "1650"
+	if(var_intro_timer >= 1650)
 	{
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1

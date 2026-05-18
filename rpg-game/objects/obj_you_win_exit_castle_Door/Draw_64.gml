@@ -25,10 +25,10 @@ if(player_touching_door == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5C828416
 	/// @DnDParent : 5D06EF95
-	/// @DnDArgument : "x" "750"
-	/// @DnDArgument : "y" "400"
+	/// @DnDArgument : "x" "550"
+	/// @DnDArgument : "y" "200"
 	/// @DnDArgument : "caption" ""Press V to enter ""
-	draw_text(750, 400, string("Press V to enter ") + "");
+	draw_text(550, 200, string("Press V to enter ") + "");
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -75,10 +75,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 72045477
 			/// @DnDParent : 5AC7DD49
-			/// @DnDArgument : "x" "650"
-			/// @DnDArgument : "y" "600"
+			/// @DnDArgument : "x" "550"
+			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""15 TOTAL COINS AND KEYCARD REQUIRED""
-			draw_text(650, 600, string("15 TOTAL COINS AND KEYCARD REQUIRED") + "");
+			draw_text(550, 300, string("15 TOTAL COINS AND KEYCARD REQUIRED") + "");
 		}
 	}
 }
@@ -111,10 +111,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 790BAE35
 			/// @DnDParent : 6CB01CA9
-			/// @DnDArgument : "x" "650"
-			/// @DnDArgument : "y" "600"
+			/// @DnDArgument : "x" "550"
+			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""NOT ENOUGH COINS""
-			draw_text(650, 600, string("NOT ENOUGH COINS") + "");
+			draw_text(550, 300, string("NOT ENOUGH COINS") + "");
 		}
 	}
 }
@@ -147,10 +147,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 24A62A4D
 			/// @DnDParent : 20AE6B71
-			/// @DnDArgument : "x" "650"
-			/// @DnDArgument : "y" "600"
+			/// @DnDArgument : "x" "550"
+			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""KEYCARD REQUIRED""
-			draw_text(650, 600, string("KEYCARD REQUIRED") + "");
+			draw_text(550, 300, string("KEYCARD REQUIRED") + "");
 		}
 	}
 }
@@ -208,11 +208,11 @@ if(door_sequence_started == true)
 				/// @DnDVersion : 1
 				/// @DnDHash : 40F2F21D
 				/// @DnDParent : 66B16A09
-				/// @DnDArgument : "x" "display_get_gui_width()/2 + random_range(-(30 - transport_timer), (30 - transport_timer))"
-				/// @DnDArgument : "y" "display_get_gui_height()/2 + random_range(-(30 - transport_timer), (30 - transport_timer))"
+				/// @DnDArgument : "x" "550 + random_range(-(30 - transport_timer), (30 - transport_timer))"
+				/// @DnDArgument : "y" "200 + random_range(-(30 - transport_timer), (30 - transport_timer))"
 				/// @DnDArgument : "caption" ""Exiting Castle.. ""
 				/// @DnDArgument : "angle" "random_range(-2,2)"
-				draw_text_transformed(display_get_gui_width()/2 + random_range(-(30 - transport_timer), (30 - transport_timer)), display_get_gui_height()/2 + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Exiting Castle.. ") + "", 1, 1, random_range(-2,2));
+				draw_text_transformed(550 + random_range(-(30 - transport_timer), (30 - transport_timer)), 200 + random_range(-(30 - transport_timer), (30 - transport_timer)), string("Exiting Castle.. ") + "", 1, 1, random_range(-2,2));
 			}
 		}
 	}

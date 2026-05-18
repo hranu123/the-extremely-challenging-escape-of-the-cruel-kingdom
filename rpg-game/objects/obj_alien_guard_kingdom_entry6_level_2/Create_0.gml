@@ -15,9 +15,9 @@ guard_chase_speed = 6;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1DAFC6BE
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "10"
 /// @DnDArgument : "var" "guard_walk_detect_range"
-guard_walk_detect_range = 5;
+guard_walk_detect_range = 10;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
