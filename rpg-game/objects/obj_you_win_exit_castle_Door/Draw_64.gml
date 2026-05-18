@@ -111,10 +111,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 790BAE35
 			/// @DnDParent : 6CB01CA9
-			/// @DnDArgument : "x" "500"
+			/// @DnDArgument : "x" "400"
 			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""NOT ENOUGH COINS""
-			draw_text(500, 300, string("NOT ENOUGH COINS") + "");
+			draw_text(400, 300, string("NOT ENOUGH COINS") + "");
 		}
 	}
 }
@@ -147,10 +147,10 @@ if(player_touching_door == true)
 			/// @DnDVersion : 1
 			/// @DnDHash : 24A62A4D
 			/// @DnDParent : 20AE6B71
-			/// @DnDArgument : "x" "500"
+			/// @DnDArgument : "x" "400"
 			/// @DnDArgument : "y" "300"
 			/// @DnDArgument : "caption" ""KEYCARD REQUIRED""
-			draw_text(500, 300, string("KEYCARD REQUIRED") + "");
+			draw_text(400, 300, string("KEYCARD REQUIRED") + "");
 		}
 	}
 }
