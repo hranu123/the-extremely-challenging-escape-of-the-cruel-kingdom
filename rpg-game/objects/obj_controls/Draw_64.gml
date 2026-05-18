@@ -30,13 +30,13 @@ for(var l4B3028E3_2 = 1; l4B3028E3_2 > 0; --l4B3028E3_2) {
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1
 /// @DnDHash : 4F9C99DF
-/// @DnDArgument : "x" "1000"
+/// @DnDArgument : "x" "950"
 /// @DnDArgument : "y" "200"
 /// @DnDArgument : "sprite" "spr_return_to_lobby_control_for_room"
 /// @DnDSaveInfo : "sprite" "spr_return_to_lobby_control_for_room"
 var l4F9C99DF_0 = sprite_get_width(spr_return_to_lobby_control_for_room);
 var l4F9C99DF_1 = 0;
 for(var l4F9C99DF_2 = 1; l4F9C99DF_2 > 0; --l4F9C99DF_2) {
-	draw_sprite(spr_return_to_lobby_control_for_room, 0, 1000 + l4F9C99DF_1, 200);
+	draw_sprite(spr_return_to_lobby_control_for_room, 0, 950 + l4F9C99DF_1, 200);
 	l4F9C99DF_1 += l4F9C99DF_0;
 }

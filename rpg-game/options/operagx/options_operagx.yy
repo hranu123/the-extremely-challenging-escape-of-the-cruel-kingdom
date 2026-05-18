@@ -14,5 +14,5 @@
   "option_operagx_team_id": "e2815a0a-2cca-4a9a-aac6-ae059efd9843",
   "option_operagx_editUrl": "https://dev.gx.games/games/7e3219f9-0232-46a5-96d5-b81da669cd25/details",
   "option_operagx_internalShareUrl": "https://gx.games/games/forjzx/escape-of-the-cruel-kingdom/tracks/9a3b90d1-3b60-4dd9-ba34-24507644d43f/",
-  "option_operagx_publicShareUrl": "",
+  "option_operagx_publicShareUrl": "https://gx.games/games/forjzx/escape-of-the-cruel-kingdom/",
 }
