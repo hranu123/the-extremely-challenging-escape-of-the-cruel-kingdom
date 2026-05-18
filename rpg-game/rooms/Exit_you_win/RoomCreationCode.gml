@@ -1,9 +1,7 @@
-/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 0263F38D
-/// @DnDArgument : "soundid" "snd_level_2_background_music"
-/// @DnDSaveInfo : "soundid" "snd_level_2_background_music"
-audio_stop_sound(snd_level_2_background_music);
+/// @DnDHash : 75A59D44
+audio_stop_all();
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
