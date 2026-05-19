@@ -211,9 +211,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
-    {"roomId":{"name":"Lobby","path":"rooms/Lobby/Lobby.yy",},},
     {"roomId":{"name":"Enter_Kingdom","path":"rooms/Enter_Kingdom/Enter_Kingdom.yy",},},
     {"roomId":{"name":"You_lose","path":"rooms/You_lose/You_lose.yy",},},
     {"roomId":{"name":"You_lose_guard","path":"rooms/You_lose_guard/You_lose_guard.yy",},},
